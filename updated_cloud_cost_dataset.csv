@@ -1,0 +1,501 @@
+Service Code,Location,Location Type,Instance Type,Current Generation,Instance Family,vCPU Count,Physical Processor,Date,Price Per Hour,Total Monthly Cost,CPU Usage (%),Memory Usage (%),Storage Usage (GB),Billing Spike,Cloud Provider
+GoogleCloudCompute,US West (Oregon),AWS Region,r5d.24xlarge,No,Compute Optimized,21,Intel Xeon Platinum 8275,02-05-2023,1.57,1130.4,84,84,3494,No,Google Cloud Platform
+AmazonS3,Asia Pacific (Singapore),GCP Zone,d2.xlarge,No,Storage Optimized,108,Intel Xeon 2676 v3,21-10-2023,0.02,14.4,69,30,1234,No,AWS
+AzureVM,US East (N. Virginia),AWS Region,t3.micro,Yes,Memory Optimized,127,Intel Xeon 2676 v3,20-04-2024,9.74,7012.8,24,71,2784,No,Azure
+AmazonS3,Asia Pacific (Singapore),AWS Region,r5d.24xlarge,Yes,Memory Optimized,7,Intel Xeon 2680 v2,25-11-2023,0.66,475.2,13,98,2413,No,AWS
+AzureVM,US East (N. Virginia),GCP Zone,d2.xlarge,No,Storage Optimized,92,Intel Xeon Platinum 8275,19-03-2024,1.23,885.6,17,56,84,No,Azure
+AmazonS3,EU (Frankfurt),GCP Zone,c3.2xlarge,No,General Purpose,93,Intel Xeon Platinum 8275,06-02-2024,7.75,5580,43,83,2031,No,AWS
+GoogleCloudCompute,US West (Oregon),Azure Region,m5d.24xlarge,Yes,General Purpose,40,Intel Xeon 2680 v2,27-07-2023,7.48,5385.6,62,33,4043,No,Google Cloud Platform
+AmazonS3,US West (Oregon),AWS Region,t3.micro,Yes,Memory Optimized,45,Intel Xeon 2680 v2,11-12-2023,9.87,7106.4,97,10,2077,No,AWS
+GoogleCloudCompute,Asia Pacific (Singapore),Azure Region,t3.micro,No,Memory Optimized,35,Intel Xeon 2680 v2,14-01-2024,0.75,540,50,37,250,No,Google Cloud Platform
+AzureVM,US East (N. Virginia),Azure Region,d2.xlarge,Yes,Storage Optimized,104,Intel Xeon 2676 v3,19-04-2024,5.62,4046.4,56,87,2740,No,Azure
+AzureVM,Asia Pacific (Singapore),Azure Region,r5d.24xlarge,Yes,Memory Optimized,15,Intel Xeon 2676 v3,11-02-2023,4.4,3168,60,72,913,No,Azure
+AmazonS3,US East (N. Virginia),GCP Zone,d2.xlarge,Yes,Memory Optimized,109,Intel Xeon Platinum 8275,20-06-2023,2.04,1468.8,22,41,1772,No,AWS
+AmazonS3,EU (Frankfurt),GCP Zone,d2.xlarge,No,Compute Optimized,117,Intel Xeon 2676 v3,11-10-2023,8.04,5788.8,53,93,2031,No,AWS
+AzureVM,Asia Pacific (Singapore),AWS Region,t3.micro,Yes,Compute Optimized,27,Intel Xeon 2676 v3,01-05-2023,8.18,5889.6,12,79,4794,No,Azure
+AmazonEC2,Asia Pacific (Singapore),GCP Zone,m5d.24xlarge,No,Memory Optimized,59,Intel Xeon 2676 v3,09-06-2023,5.19,3736.8,61,71,4709,No,AWS
+GoogleCloudCompute,EU (Frankfurt),Azure Region,t3.micro,Yes,Compute Optimized,56,Intel Xeon 2680 v2,06-07-2023,6.1,4392,11,63,904,No,Google Cloud Platform
+AmazonEC2,US East (N. Virginia),Azure Region,c3.2xlarge,Yes,Storage Optimized,90,Intel Xeon Platinum 8280,17-07-2023,2.43,1749.6,77,64,252,No,AWS
+AmazonEC2,Asia Pacific (Singapore),GCP Zone,d2.xlarge,No,General Purpose,70,Intel Xeon 2676 v3,30-01-2024,8.17,5882.4,25,82,1197,No,AWS
+AmazonS3,US East (N. Virginia),Azure Region,m5d.24xlarge,No,Memory Optimized,36,Intel Xeon Platinum 8275,12-12-2023,5.13,3693.6,28,29,2961,Yes,AWS
+AmazonEC2,US East (N. Virginia),Azure Region,c3.2xlarge,No,Compute Optimized,11,Intel Xeon Platinum 8280,16-03-2024,1.14,820.8,32,40,4111,No,AWS
+GoogleCloudCompute,US West (Oregon),GCP Zone,t3.micro,No,Storage Optimized,113,Intel Xeon 2676 v3,20-01-2024,0.94,676.8,21,78,3158,No,Google Cloud Platform
+GoogleCloudCompute,US East (N. Virginia),AWS Region,r5d.24xlarge,Yes,Storage Optimized,80,Intel Xeon Platinum 8275,08-02-2024,8.87,6386.4,42,33,4773,Yes,Google Cloud Platform
+AmazonS3,US West (Oregon),GCP Zone,m5d.24xlarge,No,Memory Optimized,112,Intel Xeon 2676 v3,17-04-2024,6.64,4780.8,27,91,3827,No,AWS
+AmazonS3,US East (N. Virginia),AWS Region,m5d.24xlarge,Yes,Storage Optimized,33,Intel Xeon 2676 v3,04-10-2023,1.8,1296,17,16,1268,No,AWS
+AmazonEC2,US West (Oregon),Azure Region,r5d.24xlarge,No,Memory Optimized,22,Intel Xeon 2676 v3,07-06-2023,9.73,7005.6,60,63,3404,No,AWS
+AmazonEC2,EU (Frankfurt),AWS Region,m5d.24xlarge,Yes,Storage Optimized,97,Intel Xeon 2680 v2,13-11-2023,5,3600,13,44,3170,Yes,AWS
+AmazonS3,US West (Oregon),GCP Zone,d2.xlarge,No,Compute Optimized,6,Intel Xeon Platinum 8275,15-01-2024,0.16,115.2,33,55,4326,No,AWS
+AmazonS3,US East (N. Virginia),Azure Region,d2.xlarge,Yes,Storage Optimized,87,Intel Xeon 2680 v2,13-09-2023,4.86,3499.2,27,34,619,No,AWS
+AzureVM,US West (Oregon),GCP Zone,c3.2xlarge,Yes,Memory Optimized,106,Intel Xeon 2676 v3,18-04-2024,7.41,5335.2,42,18,4391,No,Azure
+AmazonEC2,EU (Frankfurt),Azure Region,c3.2xlarge,Yes,General Purpose,25,Intel Xeon Platinum 8280,13-01-2023,0.83,597.6,16,66,4181,No,AWS
+AmazonEC2,US West (Oregon),GCP Zone,m5d.24xlarge,Yes,Memory Optimized,15,Intel Xeon Platinum 8280,20-12-2023,0.95,684,96,72,903,No,AWS
+AzureVM,Asia Pacific (Singapore),GCP Zone,d2.xlarge,No,General Purpose,58,Intel Xeon 2676 v3,01-11-2023,0.38,273.6,79,24,2541,No,Azure
+AmazonS3,US East (N. Virginia),AWS Region,m5d.24xlarge,No,Compute Optimized,96,Intel Xeon Platinum 8280,16-12-2023,5.41,3895.2,64,49,4414,No,AWS
+AzureVM,EU (Frankfurt),Azure Region,t3.micro,No,Memory Optimized,19,Intel Xeon Platinum 8280,27-02-2023,0.79,568.8,99,71,2888,No,Azure
+AmazonS3,US East (N. Virginia),AWS Region,c3.2xlarge,No,Compute Optimized,111,Intel Xeon 2676 v3,06-04-2023,5.5,3960,57,98,4633,No,AWS
+AmazonEC2,US West (Oregon),AWS Region,d2.xlarge,No,Compute Optimized,119,Intel Xeon Platinum 8275,17-03-2023,5.66,4075.2,60,95,2794,No,AWS
+AmazonS3,US East (N. Virginia),Azure Region,t3.micro,No,General Purpose,62,Intel Xeon Platinum 8280,28-03-2024,4.75,3420,99,99,2529,No,AWS
+AmazonS3,US East (N. Virginia),GCP Zone,d2.xlarge,Yes,General Purpose,10,Intel Xeon 2676 v3,21-11-2023,8.87,6386.4,61,19,3780,No,AWS
+AmazonEC2,US West (Oregon),AWS Region,d2.xlarge,No,Storage Optimized,24,Intel Xeon Platinum 8280,04-09-2023,9.44,6796.8,41,93,1737,No,AWS
+GoogleCloudCompute,US West (Oregon),AWS Region,t3.micro,Yes,Memory Optimized,43,Intel Xeon 2680 v2,25-09-2023,3.87,2786.4,42,49,3963,No,Google Cloud Platform
+AmazonEC2,US East (N. Virginia),Azure Region,c3.2xlarge,Yes,Memory Optimized,114,Intel Xeon Platinum 8275,03-08-2023,0.72,518.4,17,35,1675,No,AWS
+GoogleCloudCompute,US East (N. Virginia),Azure Region,m5d.24xlarge,No,Compute Optimized,114,Intel Xeon 2680 v2,16-03-2023,8.78,6321.6,45,98,3398,No,Google Cloud Platform
+AmazonS3,EU (Frankfurt),AWS Region,t3.micro,No,Storage Optimized,99,Intel Xeon 2680 v2,09-04-2023,4.13,2973.6,91,33,4182,No,AWS
+GoogleCloudCompute,US East (N. Virginia),Azure Region,t3.micro,Yes,Compute Optimized,30,Intel Xeon 2680 v2,04-01-2024,5.06,3643.2,98,95,4542,No,Google Cloud Platform
+AmazonEC2,US West (Oregon),AWS Region,t3.micro,Yes,Storage Optimized,9,Intel Xeon Platinum 8275,11-10-2023,9.5,6840,61,92,3627,No,AWS
+AmazonEC2,US East (N. Virginia),Azure Region,m5d.24xlarge,Yes,Storage Optimized,123,Intel Xeon 2680 v2,28-04-2024,9.46,6811.2,25,66,1112,Yes,AWS
+AzureVM,EU (Frankfurt),Azure Region,c3.2xlarge,Yes,Memory Optimized,87,Intel Xeon 2680 v2,23-08-2023,7.06,5083.2,85,18,1003,No,Azure
+AmazonEC2,EU (Frankfurt),Azure Region,d2.xlarge,No,General Purpose,9,Intel Xeon 2676 v3,10-10-2023,7.07,5090.4,14,38,3286,No,AWS
+AmazonS3,US West (Oregon),AWS Region,t3.micro,No,Storage Optimized,17,Intel Xeon Platinum 8275,23-11-2023,9.86,7099.2,13,45,3191,No,AWS
+GoogleCloudCompute,US East (N. Virginia),GCP Zone,r5d.24xlarge,No,General Purpose,19,Intel Xeon Platinum 8275,06-05-2023,4.93,3549.6,22,67,505,No,Google Cloud Platform
+AmazonEC2,Asia Pacific (Singapore),AWS Region,r5d.24xlarge,Yes,Storage Optimized,62,Intel Xeon 2680 v2,10-07-2023,4.78,3441.6,34,65,978,No,AWS
+AzureVM,EU (Frankfurt),AWS Region,d2.xlarge,Yes,Memory Optimized,21,Intel Xeon Platinum 8280,09-01-2024,9.25,6660,45,28,3562,No,Azure
+AmazonEC2,US East (N. Virginia),GCP Zone,t3.micro,Yes,General Purpose,118,Intel Xeon Platinum 8275,24-05-2023,7.37,5306.4,84,21,1403,No,AWS
+AmazonS3,EU (Frankfurt),AWS Region,c3.2xlarge,No,Storage Optimized,90,Intel Xeon Platinum 8280,05-07-2023,2.3,1656,37,50,4885,No,AWS
+AzureVM,Asia Pacific (Singapore),AWS Region,t3.micro,Yes,Compute Optimized,84,Intel Xeon 2680 v2,08-08-2023,2.72,1958.4,22,55,3374,No,Azure
+GoogleCloudCompute,US West (Oregon),AWS Region,t3.micro,No,General Purpose,56,Intel Xeon 2676 v3,30-08-2023,5.52,3974.4,14,42,4519,No,Google Cloud Platform
+AmazonS3,Asia Pacific (Singapore),AWS Region,r5d.24xlarge,Yes,General Purpose,63,Intel Xeon 2680 v2,08-12-2023,8.29,5968.8,58,86,4050,No,AWS
+GoogleCloudCompute,Asia Pacific (Singapore),AWS Region,d2.xlarge,No,Memory Optimized,6,Intel Xeon Platinum 8280,09-04-2024,5.35,3852,14,12,1510,No,Google Cloud Platform
+AmazonEC2,US East (N. Virginia),GCP Zone,c3.2xlarge,Yes,Compute Optimized,85,Intel Xeon 2676 v3,01-04-2024,1.3,936,60,54,766,No,AWS
+AmazonEC2,US East (N. Virginia),GCP Zone,m5d.24xlarge,Yes,Storage Optimized,39,Intel Xeon 2676 v3,07-09-2023,5.21,3751.2,12,59,4413,No,AWS
+AmazonS3,US East (N. Virginia),GCP Zone,r5d.24xlarge,Yes,Compute Optimized,112,Intel Xeon Platinum 8275,30-10-2023,4.21,3031.2,94,23,4723,No,AWS
+GoogleCloudCompute,EU (Frankfurt),GCP Zone,c3.2xlarge,No,General Purpose,30,Intel Xeon Platinum 8275,13-12-2023,0.92,662.4,61,47,1408,No,Google Cloud Platform
+GoogleCloudCompute,EU (Frankfurt),Azure Region,t3.micro,Yes,Compute Optimized,4,Intel Xeon 2676 v3,03-07-2023,8.42,6062.4,26,93,3081,Yes,Google Cloud Platform
+AzureVM,US East (N. Virginia),GCP Zone,d2.xlarge,No,Memory Optimized,43,Intel Xeon Platinum 8280,03-04-2024,0.77,554.4,32,64,3495,No,Azure
+AmazonS3,US West (Oregon),AWS Region,r5d.24xlarge,No,Memory Optimized,27,Intel Xeon 2680 v2,09-06-2023,1.73,1245.6,60,28,4749,No,AWS
+AzureVM,US East (N. Virginia),GCP Zone,t3.micro,Yes,Compute Optimized,12,Intel Xeon 2676 v3,15-02-2023,3.65,2628,87,99,2346,No,Azure
+AzureVM,Asia Pacific (Singapore),GCP Zone,r5d.24xlarge,Yes,Storage Optimized,61,Intel Xeon 2680 v2,26-01-2023,8.68,6249.6,17,61,2816,No,Azure
+AmazonS3,EU (Frankfurt),GCP Zone,c3.2xlarge,No,Memory Optimized,78,Intel Xeon Platinum 8280,21-01-2024,7.48,5385.6,23,68,1696,No,AWS
+GoogleCloudCompute,Asia Pacific (Singapore),AWS Region,c3.2xlarge,No,General Purpose,99,Intel Xeon Platinum 8275,15-01-2023,1.06,763.2,37,83,1112,No,Google Cloud Platform
+GoogleCloudCompute,EU (Frankfurt),GCP Zone,m5d.24xlarge,Yes,Compute Optimized,13,Intel Xeon Platinum 8280,25-01-2023,6.79,4888.8,76,27,2208,No,Google Cloud Platform
+AzureVM,EU (Frankfurt),Azure Region,t3.micro,No,Memory Optimized,42,Intel Xeon 2680 v2,11-04-2023,3.64,2620.8,35,73,1811,No,Azure
+GoogleCloudCompute,US East (N. Virginia),GCP Zone,d2.xlarge,Yes,Compute Optimized,53,Intel Xeon 2676 v3,04-10-2023,1.54,1108.8,13,84,3567,No,Google Cloud Platform
+GoogleCloudCompute,US West (Oregon),Azure Region,t3.micro,Yes,Memory Optimized,115,Intel Xeon Platinum 8275,09-02-2023,6.97,5018.4,33,15,517,No,Google Cloud Platform
+AmazonS3,Asia Pacific (Singapore),GCP Zone,t3.micro,No,Storage Optimized,102,Intel Xeon Platinum 8275,03-03-2023,9.29,6688.8,88,84,1191,No,AWS
+AmazonS3,US East (N. Virginia),AWS Region,m5d.24xlarge,Yes,Compute Optimized,90,Intel Xeon 2676 v3,16-11-2023,0.88,633.6,20,86,2076,No,AWS
+AzureVM,EU (Frankfurt),GCP Zone,d2.xlarge,Yes,General Purpose,44,Intel Xeon 2676 v3,13-01-2023,6.85,4932,93,74,1392,No,Azure
+AmazonEC2,US East (N. Virginia),Azure Region,r5d.24xlarge,No,Memory Optimized,49,Intel Xeon 2680 v2,14-11-2023,7.46,5371.2,59,87,1958,No,AWS
+AmazonEC2,EU (Frankfurt),Azure Region,r5d.24xlarge,Yes,Storage Optimized,64,Intel Xeon 2676 v3,01-03-2023,8.42,6062.4,81,20,922,No,AWS
+AmazonS3,EU (Frankfurt),Azure Region,d2.xlarge,Yes,Compute Optimized,83,Intel Xeon Platinum 8275,19-03-2023,5.24,3772.8,13,98,1115,No,AWS
+AmazonS3,US West (Oregon),Azure Region,r5d.24xlarge,Yes,General Purpose,97,Intel Xeon Platinum 8275,04-03-2023,5.03,3621.6,34,26,1298,No,AWS
+AzureVM,EU (Frankfurt),AWS Region,r5d.24xlarge,Yes,Memory Optimized,70,Intel Xeon 2676 v3,08-03-2023,6.28,4521.6,81,51,2085,No,Azure
+GoogleCloudCompute,US West (Oregon),AWS Region,t3.micro,Yes,Compute Optimized,101,Intel Xeon Platinum 8275,14-03-2024,1.44,1036.8,77,95,1907,No,Google Cloud Platform
+GoogleCloudCompute,EU (Frankfurt),AWS Region,d2.xlarge,Yes,Memory Optimized,100,Intel Xeon 2680 v2,04-08-2023,6.04,4348.8,24,38,3769,No,Google Cloud Platform
+GoogleCloudCompute,US West (Oregon),AWS Region,c3.2xlarge,Yes,Memory Optimized,115,Intel Xeon Platinum 8275,24-02-2024,5.43,3909.6,52,36,2166,No,Google Cloud Platform
+AzureVM,EU (Frankfurt),GCP Zone,c3.2xlarge,No,Memory Optimized,12,Intel Xeon 2676 v3,21-05-2023,1.4,1008,91,98,1689,No,Azure
+AmazonS3,US West (Oregon),AWS Region,d2.xlarge,No,Memory Optimized,106,Intel Xeon 2680 v2,02-04-2023,3.75,2700,18,60,3583,No,AWS
+AzureVM,Asia Pacific (Singapore),Azure Region,t3.micro,No,Compute Optimized,21,Intel Xeon 2676 v3,20-04-2023,1.87,1346.4,96,66,3122,No,Azure
+GoogleCloudCompute,Asia Pacific (Singapore),Azure Region,d2.xlarge,Yes,Compute Optimized,53,Intel Xeon 2680 v2,21-07-2023,8.03,5781.6,35,50,624,No,Google Cloud Platform
+AzureVM,Asia Pacific (Singapore),GCP Zone,c3.2xlarge,Yes,General Purpose,91,Intel Xeon 2676 v3,13-12-2023,4.53,3261.6,52,68,4908,No,Azure
+AmazonS3,US East (N. Virginia),Azure Region,m5d.24xlarge,No,Compute Optimized,88,Intel Xeon 2680 v2,26-06-2023,7.81,5623.2,31,35,2253,No,AWS
+AmazonEC2,Asia Pacific (Singapore),AWS Region,m5d.24xlarge,Yes,Compute Optimized,20,Intel Xeon 2676 v3,08-12-2023,0.86,619.2,70,58,4472,No,AWS
+AmazonEC2,EU (Frankfurt),Azure Region,r5d.24xlarge,Yes,Storage Optimized,83,Intel Xeon 2676 v3,01-02-2023,4.69,3376.8,58,54,1550,No,AWS
+AmazonS3,Asia Pacific (Singapore),GCP Zone,t3.micro,No,Memory Optimized,47,Intel Xeon 2676 v3,13-07-2023,5.35,3852,47,60,4976,No,AWS
+AmazonS3,US East (N. Virginia),Azure Region,r5d.24xlarge,No,General Purpose,74,Intel Xeon Platinum 8275,01-01-2024,5.27,3794.4,96,64,1873,No,AWS
+AmazonEC2,US West (Oregon),AWS Region,t3.micro,Yes,Memory Optimized,88,Intel Xeon Platinum 8275,18-03-2024,5.06,3643.2,81,63,3360,No,AWS
+GoogleCloudCompute,US East (N. Virginia),Azure Region,c3.2xlarge,Yes,Storage Optimized,88,Intel Xeon 2676 v3,15-10-2023,8.56,6163.2,25,77,214,No,Google Cloud Platform
+AzureVM,Asia Pacific (Singapore),Azure Region,c3.2xlarge,Yes,General Purpose,7,Intel Xeon 2680 v2,31-05-2023,8.48,6105.6,28,45,1358,No,Azure
+AzureVM,US East (N. Virginia),Azure Region,d2.xlarge,No,Memory Optimized,106,Intel Xeon Platinum 8275,21-01-2024,3.64,2620.8,21,29,854,No,Azure
+AzureVM,US East (N. Virginia),GCP Zone,d2.xlarge,No,Memory Optimized,116,Intel Xeon 2676 v3,08-12-2023,7.8,5616,90,83,2729,No,Azure
+GoogleCloudCompute,US West (Oregon),AWS Region,c3.2xlarge,Yes,Compute Optimized,14,Intel Xeon 2680 v2,09-02-2023,6.99,5032.8,34,82,1351,No,Google Cloud Platform
+AmazonS3,EU (Frankfurt),GCP Zone,d2.xlarge,Yes,General Purpose,87,Intel Xeon 2680 v2,16-03-2023,8.23,5925.6,94,51,90,No,AWS
+AmazonEC2,US East (N. Virginia),AWS Region,c3.2xlarge,No,Memory Optimized,117,Intel Xeon 2676 v3,08-12-2023,1.38,993.6,66,40,695,No,AWS
+AzureVM,US West (Oregon),AWS Region,t3.micro,Yes,Memory Optimized,10,Intel Xeon 2680 v2,05-02-2024,4.19,3016.8,71,55,4275,No,Azure
+GoogleCloudCompute,US East (N. Virginia),Azure Region,d2.xlarge,No,Memory Optimized,26,Intel Xeon 2680 v2,29-05-2023,8.37,6026.4,20,45,1186,No,Google Cloud Platform
+AmazonS3,Asia Pacific (Singapore),GCP Zone,c3.2xlarge,Yes,Memory Optimized,24,Intel Xeon 2676 v3,10-02-2024,7.33,5277.6,42,45,800,No,AWS
+GoogleCloudCompute,US West (Oregon),Azure Region,t3.micro,No,Memory Optimized,109,Intel Xeon Platinum 8275,26-04-2024,6.24,4492.8,75,82,2393,No,Google Cloud Platform
+AmazonEC2,US East (N. Virginia),Azure Region,c3.2xlarge,Yes,Memory Optimized,35,Intel Xeon Platinum 8275,12-05-2024,8,5760,53,60,3599,Yes,AWS
+AmazonS3,Asia Pacific (Singapore),AWS Region,m5d.24xlarge,Yes,Memory Optimized,49,Intel Xeon 2680 v2,17-01-2023,9.5,6840,64,56,4157,No,AWS
+AmazonS3,Asia Pacific (Singapore),Azure Region,d2.xlarge,Yes,Memory Optimized,101,Intel Xeon 2676 v3,08-04-2024,8.49,6112.8,34,91,3776,No,AWS
+AmazonEC2,US East (N. Virginia),GCP Zone,c3.2xlarge,No,Memory Optimized,17,Intel Xeon Platinum 8275,09-10-2023,5.68,4089.6,16,23,4480,No,AWS
+AmazonEC2,Asia Pacific (Singapore),GCP Zone,r5d.24xlarge,Yes,Compute Optimized,82,Intel Xeon Platinum 8275,22-04-2024,0.56,403.2,27,68,3611,No,AWS
+AzureVM,Asia Pacific (Singapore),Azure Region,m5d.24xlarge,No,Compute Optimized,98,Intel Xeon Platinum 8275,20-10-2023,5.31,3823.2,99,64,4509,No,Azure
+AmazonS3,US East (N. Virginia),AWS Region,t3.micro,Yes,General Purpose,33,Intel Xeon Platinum 8280,07-05-2024,6.16,4435.2,75,64,788,No,AWS
+AzureVM,Asia Pacific (Singapore),Azure Region,d2.xlarge,Yes,General Purpose,32,Intel Xeon Platinum 8280,15-08-2023,0.71,511.2,55,38,2082,No,Azure
+AmazonEC2,US West (Oregon),AWS Region,m5d.24xlarge,Yes,Compute Optimized,10,Intel Xeon 2676 v3,13-02-2024,3.37,2426.4,93,14,2674,No,AWS
+GoogleCloudCompute,US East (N. Virginia),GCP Zone,c3.2xlarge,No,General Purpose,62,Intel Xeon 2680 v2,02-06-2023,2.78,2001.6,62,88,2682,No,Google Cloud Platform
+AmazonEC2,US West (Oregon),Azure Region,c3.2xlarge,Yes,Compute Optimized,101,Intel Xeon Platinum 8275,15-01-2024,4.18,3009.6,65,72,3465,No,AWS
+AmazonEC2,EU (Frankfurt),AWS Region,m5d.24xlarge,No,Memory Optimized,72,Intel Xeon Platinum 8280,15-12-2023,6.5,4680,83,66,2315,Yes,AWS
+AzureVM,Asia Pacific (Singapore),GCP Zone,d2.xlarge,Yes,General Purpose,47,Intel Xeon Platinum 8275,26-06-2023,5.19,3736.8,29,70,1964,No,Azure
+AzureVM,EU (Frankfurt),GCP Zone,t3.micro,No,Memory Optimized,32,Intel Xeon Platinum 8275,30-04-2024,6.23,4485.6,98,82,4725,No,Azure
+AzureVM,Asia Pacific (Singapore),AWS Region,r5d.24xlarge,Yes,Storage Optimized,29,Intel Xeon 2680 v2,14-07-2023,9.56,6883.2,85,51,4666,No,Azure
+AmazonEC2,US East (N. Virginia),Azure Region,r5d.24xlarge,No,Storage Optimized,124,Intel Xeon Platinum 8275,07-02-2023,2.6,1872,14,57,963,Yes,AWS
+AmazonS3,US West (Oregon),AWS Region,m5d.24xlarge,Yes,Compute Optimized,81,Intel Xeon 2676 v3,09-02-2023,8.83,6357.6,71,67,1641,No,AWS
+AmazonS3,Asia Pacific (Singapore),AWS Region,d2.xlarge,Yes,General Purpose,88,Intel Xeon Platinum 8275,02-12-2023,6.59,4744.8,68,68,1754,No,AWS
+AmazonEC2,US East (N. Virginia),AWS Region,c3.2xlarge,No,Memory Optimized,27,Intel Xeon 2676 v3,07-07-2023,1.59,1144.8,54,67,2858,Yes,AWS
+GoogleCloudCompute,EU (Frankfurt),GCP Zone,r5d.24xlarge,Yes,General Purpose,39,Intel Xeon Platinum 8275,23-03-2023,8.18,5889.6,87,86,2062,No,Google Cloud Platform
+AzureVM,US West (Oregon),AWS Region,r5d.24xlarge,Yes,Compute Optimized,17,Intel Xeon Platinum 8280,11-08-2023,3.77,2714.4,73,97,4820,No,Azure
+GoogleCloudCompute,EU (Frankfurt),Azure Region,c3.2xlarge,Yes,Storage Optimized,98,Intel Xeon Platinum 8275,16-02-2024,6.33,4557.6,46,31,1937,No,Google Cloud Platform
+AmazonS3,Asia Pacific (Singapore),AWS Region,m5d.24xlarge,No,Compute Optimized,10,Intel Xeon 2676 v3,12-07-2023,0.59,424.8,91,59,4849,No,AWS
+AmazonS3,US West (Oregon),Azure Region,r5d.24xlarge,No,Compute Optimized,76,Intel Xeon Platinum 8275,29-01-2023,0.23,165.6,15,88,4049,No,AWS
+AzureVM,Asia Pacific (Singapore),GCP Zone,c3.2xlarge,No,General Purpose,29,Intel Xeon Platinum 8280,09-04-2024,1.03,741.6,48,24,936,No,Azure
+GoogleCloudCompute,US West (Oregon),GCP Zone,m5d.24xlarge,No,Memory Optimized,27,Intel Xeon Platinum 8275,03-12-2023,9.63,6933.6,65,30,4076,No,Google Cloud Platform
+GoogleCloudCompute,US East (N. Virginia),AWS Region,r5d.24xlarge,Yes,Compute Optimized,58,Intel Xeon Platinum 8280,26-02-2024,2.31,1663.2,70,44,1905,No,Google Cloud Platform
+AmazonS3,US West (Oregon),GCP Zone,m5d.24xlarge,No,Memory Optimized,72,Intel Xeon Platinum 8280,05-03-2024,2.04,1468.8,62,17,640,No,AWS
+AzureVM,US West (Oregon),Azure Region,r5d.24xlarge,Yes,Storage Optimized,44,Intel Xeon 2680 v2,24-01-2023,9.21,6631.2,12,29,576,No,Azure
+AzureVM,Asia Pacific (Singapore),AWS Region,m5d.24xlarge,No,Storage Optimized,9,Intel Xeon 2676 v3,07-03-2024,4.92,3542.4,72,95,166,No,Azure
+AmazonS3,Asia Pacific (Singapore),AWS Region,t3.micro,No,Compute Optimized,18,Intel Xeon 2676 v3,16-11-2023,3.96,2851.2,47,41,778,No,AWS
+AzureVM,US East (N. Virginia),Azure Region,r5d.24xlarge,No,Compute Optimized,17,Intel Xeon Platinum 8280,12-01-2024,5.71,4111.2,88,89,2770,No,Azure
+AmazonS3,EU (Frankfurt),AWS Region,c3.2xlarge,Yes,Compute Optimized,105,Intel Xeon 2680 v2,18-02-2024,0.34,244.8,35,31,3224,No,AWS
+GoogleCloudCompute,EU (Frankfurt),GCP Zone,c3.2xlarge,No,Memory Optimized,98,Intel Xeon 2676 v3,10-01-2024,6.71,4831.2,84,70,684,Yes,Google Cloud Platform
+AzureVM,US East (N. Virginia),Azure Region,t3.micro,No,Storage Optimized,8,Intel Xeon Platinum 8280,27-06-2023,6.26,4507.2,93,71,4256,No,Azure
+GoogleCloudCompute,Asia Pacific (Singapore),GCP Zone,c3.2xlarge,No,General Purpose,127,Intel Xeon Platinum 8275,07-05-2023,5.27,3794.4,23,84,2184,No,Google Cloud Platform
+AmazonEC2,US East (N. Virginia),Azure Region,c3.2xlarge,Yes,Memory Optimized,110,Intel Xeon Platinum 8280,22-06-2023,1.83,1317.6,62,64,2385,No,AWS
+AzureVM,EU (Frankfurt),GCP Zone,r5d.24xlarge,No,Compute Optimized,96,Intel Xeon Platinum 8280,27-12-2023,4.94,3556.8,37,83,804,No,Azure
+AmazonEC2,EU (Frankfurt),Azure Region,t3.micro,Yes,Storage Optimized,49,Intel Xeon 2676 v3,01-08-2023,7.27,5234.4,70,33,453,No,AWS
+AmazonS3,US West (Oregon),GCP Zone,m5d.24xlarge,No,Storage Optimized,50,Intel Xeon 2680 v2,10-03-2024,5.79,4168.8,45,75,2432,No,AWS
+AzureVM,Asia Pacific (Singapore),GCP Zone,r5d.24xlarge,Yes,General Purpose,118,Intel Xeon 2680 v2,25-09-2023,3.84,2764.8,27,49,3008,No,Azure
+AzureVM,US West (Oregon),GCP Zone,c3.2xlarge,No,General Purpose,78,Intel Xeon 2676 v3,10-01-2024,4.14,2980.8,47,50,2415,Yes,Azure
+AmazonEC2,Asia Pacific (Singapore),GCP Zone,t3.micro,No,General Purpose,103,Intel Xeon 2676 v3,25-05-2023,3.92,2822.4,37,75,1302,Yes,AWS
+AmazonEC2,US West (Oregon),AWS Region,r5d.24xlarge,No,Memory Optimized,118,Intel Xeon 2676 v3,21-03-2023,5.2,3744,19,85,3482,No,AWS
+AmazonS3,US West (Oregon),Azure Region,m5d.24xlarge,Yes,Compute Optimized,64,Intel Xeon 2676 v3,12-04-2024,3.8,2736,46,56,2262,No,AWS
+AmazonS3,US West (Oregon),Azure Region,m5d.24xlarge,Yes,Compute Optimized,20,Intel Xeon 2676 v3,30-11-2023,0.58,417.6,46,29,331,Yes,AWS
+GoogleCloudCompute,Asia Pacific (Singapore),GCP Zone,d2.xlarge,Yes,Memory Optimized,69,Intel Xeon 2680 v2,11-05-2024,5.85,4212,21,29,2790,No,Google Cloud Platform
+GoogleCloudCompute,Asia Pacific (Singapore),GCP Zone,c3.2xlarge,Yes,General Purpose,29,Intel Xeon 2680 v2,08-02-2023,4.55,3276,52,59,968,No,Google Cloud Platform
+AmazonS3,Asia Pacific (Singapore),GCP Zone,d2.xlarge,No,Storage Optimized,50,Intel Xeon 2676 v3,15-01-2024,6.74,4852.8,94,10,1064,No,AWS
+AmazonS3,EU (Frankfurt),AWS Region,c3.2xlarge,Yes,Memory Optimized,119,Intel Xeon 2676 v3,02-03-2024,6.84,4924.8,91,26,3769,No,AWS
+AmazonEC2,US West (Oregon),Azure Region,t3.micro,No,Storage Optimized,33,Intel Xeon 2680 v2,27-05-2023,9.41,6775.2,23,62,1377,No,AWS
+AzureVM,EU (Frankfurt),GCP Zone,c3.2xlarge,No,General Purpose,63,Intel Xeon 2680 v2,10-06-2023,4.08,2937.6,57,22,2682,Yes,Azure
+GoogleCloudCompute,US East (N. Virginia),Azure Region,m5d.24xlarge,No,Compute Optimized,102,Intel Xeon 2676 v3,12-05-2023,6.68,4809.6,79,91,1050,No,Google Cloud Platform
+AmazonEC2,Asia Pacific (Singapore),AWS Region,t3.micro,Yes,Memory Optimized,65,Intel Xeon Platinum 8280,18-07-2023,5.64,4060.8,28,69,1490,No,AWS
+AmazonEC2,Asia Pacific (Singapore),GCP Zone,c3.2xlarge,Yes,Memory Optimized,72,Intel Xeon 2676 v3,06-04-2024,6.2,4464,55,18,1076,No,AWS
+AmazonS3,US West (Oregon),GCP Zone,m5d.24xlarge,Yes,Compute Optimized,26,Intel Xeon 2680 v2,12-01-2023,1.5,1080,57,46,3072,No,AWS
+GoogleCloudCompute,Asia Pacific (Singapore),Azure Region,c3.2xlarge,No,Memory Optimized,43,Intel Xeon 2680 v2,21-01-2023,1.97,1418.4,89,56,3238,No,Google Cloud Platform
+AmazonEC2,US West (Oregon),Azure Region,r5d.24xlarge,Yes,Storage Optimized,21,Intel Xeon 2680 v2,14-04-2024,1.95,1404,87,77,422,No,AWS
+GoogleCloudCompute,US East (N. Virginia),Azure Region,m5d.24xlarge,Yes,Storage Optimized,16,Intel Xeon 2676 v3,24-02-2024,7.18,5169.6,11,58,2686,No,Google Cloud Platform
+AmazonEC2,EU (Frankfurt),Azure Region,m5d.24xlarge,No,Memory Optimized,13,Intel Xeon Platinum 8275,12-03-2023,2.96,2131.2,51,70,85,No,AWS
+AzureVM,Asia Pacific (Singapore),GCP Zone,t3.micro,No,Storage Optimized,45,Intel Xeon 2676 v3,16-02-2023,9.51,6847.2,31,30,1293,No,Azure
+AmazonEC2,Asia Pacific (Singapore),GCP Zone,c3.2xlarge,Yes,Compute Optimized,42,Intel Xeon Platinum 8280,01-06-2023,3.54,2548.8,35,46,4195,No,AWS
+AmazonS3,US West (Oregon),Azure Region,c3.2xlarge,Yes,General Purpose,19,Intel Xeon Platinum 8280,02-04-2024,4.52,3254.4,78,56,1634,No,AWS
+AzureVM,US East (N. Virginia),Azure Region,d2.xlarge,Yes,General Purpose,48,Intel Xeon 2680 v2,23-05-2023,2.31,1663.2,80,41,1596,No,Azure
+AzureVM,US East (N. Virginia),AWS Region,t3.micro,No,Compute Optimized,2,Intel Xeon Platinum 8280,18-10-2023,5.97,4298.4,27,76,1627,No,Azure
+GoogleCloudCompute,US East (N. Virginia),AWS Region,r5d.24xlarge,Yes,Storage Optimized,60,Intel Xeon 2676 v3,19-01-2023,6.04,4348.8,51,41,1240,No,Google Cloud Platform
+AmazonS3,US West (Oregon),AWS Region,t3.micro,No,Memory Optimized,73,Intel Xeon Platinum 8280,19-12-2023,2.27,1634.4,50,77,1854,No,AWS
+AzureVM,US West (Oregon),AWS Region,m5d.24xlarge,Yes,Storage Optimized,21,Intel Xeon Platinum 8280,18-08-2023,5.93,4269.6,76,53,2478,No,Azure
+AzureVM,EU (Frankfurt),GCP Zone,m5d.24xlarge,No,General Purpose,81,Intel Xeon Platinum 8275,20-12-2023,4.47,3218.4,17,31,3933,Yes,Azure
+AmazonEC2,US East (N. Virginia),AWS Region,t3.micro,Yes,Storage Optimized,106,Intel Xeon 2676 v3,07-06-2023,4.51,3247.2,25,21,4802,No,AWS
+AmazonS3,US West (Oregon),Azure Region,d2.xlarge,Yes,Storage Optimized,115,Intel Xeon Platinum 8280,28-04-2023,9.92,7142.4,74,39,198,Yes,AWS
+AzureVM,EU (Frankfurt),Azure Region,t3.micro,Yes,Storage Optimized,76,Intel Xeon 2676 v3,14-05-2024,7.09,5104.8,23,45,4626,No,Azure
+AmazonEC2,EU (Frankfurt),AWS Region,d2.xlarge,No,Memory Optimized,121,Intel Xeon 2680 v2,24-03-2024,3.06,2203.2,61,71,1739,No,AWS
+GoogleCloudCompute,EU (Frankfurt),Azure Region,r5d.24xlarge,Yes,General Purpose,60,Intel Xeon 2680 v2,01-09-2023,2.09,1504.8,58,51,2775,No,Google Cloud Platform
+GoogleCloudCompute,EU (Frankfurt),GCP Zone,r5d.24xlarge,No,Memory Optimized,52,Intel Xeon 2676 v3,14-03-2023,3.23,2325.6,44,75,4275,No,Google Cloud Platform
+AzureVM,US West (Oregon),GCP Zone,c3.2xlarge,Yes,General Purpose,25,Intel Xeon 2680 v2,06-11-2023,3.14,2260.8,23,74,1183,No,Azure
+AzureVM,US East (N. Virginia),Azure Region,r5d.24xlarge,Yes,General Purpose,25,Intel Xeon 2680 v2,27-04-2023,1.23,885.6,30,77,586,No,Azure
+AmazonEC2,US West (Oregon),AWS Region,m5d.24xlarge,No,Compute Optimized,60,Intel Xeon Platinum 8275,25-01-2024,0.01,7.2,52,11,2760,No,AWS
+GoogleCloudCompute,US East (N. Virginia),Azure Region,c3.2xlarge,No,Compute Optimized,2,Intel Xeon 2676 v3,24-09-2023,7.54,5428.8,40,65,506,No,Google Cloud Platform
+AmazonEC2,Asia Pacific (Singapore),AWS Region,t3.micro,No,General Purpose,110,Intel Xeon Platinum 8275,20-09-2023,6.92,4982.4,13,13,1688,No,AWS
+AmazonEC2,Asia Pacific (Singapore),AWS Region,m5d.24xlarge,No,Storage Optimized,38,Intel Xeon Platinum 8275,27-06-2023,1.32,950.4,72,71,817,No,AWS
+GoogleCloudCompute,Asia Pacific (Singapore),GCP Zone,d2.xlarge,Yes,General Purpose,5,Intel Xeon 2676 v3,02-07-2023,4.17,3002.4,30,88,2758,No,Google Cloud Platform
+AzureVM,US West (Oregon),Azure Region,d2.xlarge,Yes,Compute Optimized,85,Intel Xeon 2676 v3,30-08-2023,6.3,4536,62,91,4318,Yes,Azure
+AmazonEC2,Asia Pacific (Singapore),AWS Region,m5d.24xlarge,Yes,Memory Optimized,21,Intel Xeon Platinum 8280,13-09-2023,0.99,712.8,35,77,595,No,AWS
+AmazonS3,EU (Frankfurt),Azure Region,t3.micro,Yes,Storage Optimized,29,Intel Xeon 2676 v3,11-02-2023,7.85,5652,22,73,66,No,AWS
+AmazonEC2,US East (N. Virginia),GCP Zone,m5d.24xlarge,No,Compute Optimized,97,Intel Xeon 2676 v3,30-08-2023,0.39,280.8,69,30,764,No,AWS
+AmazonS3,Asia Pacific (Singapore),GCP Zone,t3.micro,Yes,Compute Optimized,60,Intel Xeon Platinum 8275,10-12-2023,8.83,6357.6,78,41,2198,Yes,AWS
+AmazonS3,US East (N. Virginia),Azure Region,r5d.24xlarge,Yes,Compute Optimized,51,Intel Xeon Platinum 8280,27-04-2024,0.13,93.6,14,29,4377,No,AWS
+AzureVM,US West (Oregon),Azure Region,m5d.24xlarge,Yes,Memory Optimized,7,Intel Xeon Platinum 8275,28-01-2023,3.55,2556,67,14,822,No,Azure
+AmazonS3,US West (Oregon),GCP Zone,m5d.24xlarge,Yes,Memory Optimized,8,Intel Xeon Platinum 8280,26-12-2023,6.25,4500,75,88,3043,Yes,AWS
+AmazonS3,EU (Frankfurt),GCP Zone,t3.micro,Yes,Compute Optimized,122,Intel Xeon Platinum 8275,09-07-2023,8.96,6451.2,19,30,3797,No,AWS
+AmazonS3,EU (Frankfurt),GCP Zone,d2.xlarge,Yes,Storage Optimized,95,Intel Xeon Platinum 8280,15-10-2023,6.17,4442.4,20,19,4928,No,AWS
+AzureVM,Asia Pacific (Singapore),AWS Region,t3.micro,No,Memory Optimized,78,Intel Xeon Platinum 8280,17-04-2024,1.65,1188,39,93,3293,No,Azure
+AzureVM,US East (N. Virginia),AWS Region,r5d.24xlarge,No,Storage Optimized,94,Intel Xeon Platinum 8275,08-02-2023,8.47,6098.4,56,27,2246,No,Azure
+AmazonEC2,EU (Frankfurt),GCP Zone,m5d.24xlarge,No,Memory Optimized,86,Intel Xeon 2676 v3,23-08-2023,2.7,1944,38,22,3587,No,AWS
+AmazonEC2,Asia Pacific (Singapore),Azure Region,c3.2xlarge,Yes,Memory Optimized,115,Intel Xeon Platinum 8275,29-03-2023,3.43,2469.6,31,52,2518,No,AWS
+AmazonS3,Asia Pacific (Singapore),Azure Region,r5d.24xlarge,Yes,Compute Optimized,30,Intel Xeon Platinum 8275,18-04-2023,6.37,4586.4,17,67,3777,No,AWS
+AmazonS3,US East (N. Virginia),Azure Region,t3.micro,No,Storage Optimized,99,Intel Xeon Platinum 8280,16-11-2023,8,5760,98,19,1478,No,AWS
+GoogleCloudCompute,Asia Pacific (Singapore),Azure Region,c3.2xlarge,Yes,Storage Optimized,13,Intel Xeon 2680 v2,14-05-2024,5.25,3780,99,67,2663,No,Google Cloud Platform
+AzureVM,EU (Frankfurt),AWS Region,c3.2xlarge,Yes,Compute Optimized,20,Intel Xeon Platinum 8275,04-02-2024,1.5,1080,79,65,1174,No,Azure
+GoogleCloudCompute,US East (N. Virginia),GCP Zone,r5d.24xlarge,No,Compute Optimized,102,Intel Xeon 2680 v2,06-11-2023,6.96,5011.2,30,83,2135,No,Google Cloud Platform
+AmazonS3,US East (N. Virginia),AWS Region,m5d.24xlarge,Yes,Memory Optimized,71,Intel Xeon Platinum 8280,09-08-2023,6.43,4629.6,97,89,2997,Yes,AWS
+AmazonS3,EU (Frankfurt),GCP Zone,c3.2xlarge,Yes,Memory Optimized,60,Intel Xeon Platinum 8280,07-02-2024,4.99,3592.8,92,31,713,No,AWS
+AzureVM,EU (Frankfurt),GCP Zone,d2.xlarge,Yes,Storage Optimized,64,Intel Xeon Platinum 8275,07-03-2024,3.74,2692.8,64,64,2578,Yes,Azure
+AmazonS3,US East (N. Virginia),Azure Region,m5d.24xlarge,Yes,Memory Optimized,75,Intel Xeon 2680 v2,28-04-2023,6.43,4629.6,26,79,1333,No,AWS
+GoogleCloudCompute,Asia Pacific (Singapore),Azure Region,m5d.24xlarge,Yes,Memory Optimized,9,Intel Xeon 2676 v3,04-02-2024,2.04,1468.8,70,19,2147,No,Google Cloud Platform
+GoogleCloudCompute,US East (N. Virginia),GCP Zone,d2.xlarge,No,Compute Optimized,123,Intel Xeon 2680 v2,20-02-2023,9.41,6775.2,51,44,4726,No,Google Cloud Platform
+AmazonEC2,US West (Oregon),AWS Region,d2.xlarge,No,Storage Optimized,5,Intel Xeon Platinum 8280,11-03-2023,6.32,4550.4,48,44,4786,No,AWS
+AmazonS3,EU (Frankfurt),AWS Region,m5d.24xlarge,No,Storage Optimized,57,Intel Xeon Platinum 8275,25-03-2023,6.57,4730.4,45,94,1481,Yes,AWS
+AzureVM,EU (Frankfurt),Azure Region,r5d.24xlarge,Yes,Storage Optimized,14,Intel Xeon Platinum 8280,29-01-2024,2.73,1965.6,63,98,254,No,Azure
+AmazonEC2,US East (N. Virginia),Azure Region,m5d.24xlarge,No,General Purpose,107,Intel Xeon 2680 v2,21-01-2023,5.33,3837.6,42,16,3191,No,AWS
+AzureVM,US West (Oregon),Azure Region,m5d.24xlarge,No,Memory Optimized,48,Intel Xeon Platinum 8275,09-02-2024,0.53,381.6,23,66,4310,No,Azure
+AzureVM,US East (N. Virginia),Azure Region,c3.2xlarge,Yes,Storage Optimized,49,Intel Xeon Platinum 8275,06-01-2024,9.72,6998.4,21,70,474,Yes,Azure
+AmazonEC2,US West (Oregon),Azure Region,c3.2xlarge,Yes,Memory Optimized,86,Intel Xeon Platinum 8275,16-10-2023,5.24,3772.8,70,70,2140,Yes,AWS
+AzureVM,US East (N. Virginia),AWS Region,c3.2xlarge,No,General Purpose,70,Intel Xeon 2676 v3,06-03-2023,4.29,3088.8,14,11,3187,Yes,Azure
+AmazonS3,US West (Oregon),Azure Region,d2.xlarge,Yes,General Purpose,76,Intel Xeon Platinum 8280,09-05-2024,5.13,3693.6,69,68,660,Yes,AWS
+GoogleCloudCompute,US East (N. Virginia),Azure Region,d2.xlarge,No,General Purpose,127,Intel Xeon Platinum 8280,01-01-2024,7.54,5428.8,24,94,1799,No,Google Cloud Platform
+AzureVM,Asia Pacific (Singapore),AWS Region,t3.micro,No,General Purpose,28,Intel Xeon 2676 v3,04-01-2024,0.28,201.6,34,12,2041,No,Azure
+AzureVM,US West (Oregon),Azure Region,m5d.24xlarge,Yes,Compute Optimized,123,Intel Xeon 2676 v3,02-03-2024,7.76,5587.2,60,20,2601,No,Azure
+AmazonS3,US West (Oregon),AWS Region,m5d.24xlarge,Yes,Compute Optimized,72,Intel Xeon Platinum 8275,28-01-2024,3.97,2858.4,57,91,4613,No,AWS
+AzureVM,Asia Pacific (Singapore),Azure Region,d2.xlarge,Yes,Memory Optimized,114,Intel Xeon Platinum 8275,09-02-2023,5.08,3657.6,10,17,662,No,Azure
+AmazonS3,Asia Pacific (Singapore),AWS Region,m5d.24xlarge,No,General Purpose,110,Intel Xeon 2676 v3,02-10-2023,8.83,6357.6,21,20,4008,No,AWS
+GoogleCloudCompute,US East (N. Virginia),Azure Region,d2.xlarge,Yes,General Purpose,13,Intel Xeon 2676 v3,17-09-2023,9.97,7178.4,68,36,1610,Yes,Google Cloud Platform
+AmazonS3,US East (N. Virginia),GCP Zone,c3.2xlarge,No,General Purpose,5,Intel Xeon Platinum 8275,08-07-2023,3.38,2433.6,18,59,695,No,AWS
+AmazonS3,US East (N. Virginia),Azure Region,c3.2xlarge,Yes,Storage Optimized,108,Intel Xeon 2680 v2,01-08-2023,2.55,1836,95,12,637,No,AWS
+AzureVM,US West (Oregon),AWS Region,m5d.24xlarge,No,General Purpose,62,Intel Xeon 2680 v2,13-04-2024,4.21,3031.2,43,50,4483,No,Azure
+AmazonEC2,Asia Pacific (Singapore),GCP Zone,t3.micro,Yes,Storage Optimized,11,Intel Xeon 2676 v3,28-09-2023,2.55,1836,42,93,2990,No,AWS
+AzureVM,Asia Pacific (Singapore),Azure Region,t3.micro,No,Storage Optimized,1,Intel Xeon Platinum 8280,04-09-2023,2.8,2016,72,76,491,No,Azure
+AzureVM,Asia Pacific (Singapore),Azure Region,d2.xlarge,Yes,Compute Optimized,117,Intel Xeon 2680 v2,29-10-2023,7.59,5464.8,85,26,4696,No,Azure
+AmazonS3,US East (N. Virginia),Azure Region,c3.2xlarge,Yes,Compute Optimized,6,Intel Xeon Platinum 8275,07-08-2023,5.61,4039.2,55,47,191,No,AWS
+AmazonS3,EU (Frankfurt),Azure Region,r5d.24xlarge,No,Memory Optimized,78,Intel Xeon Platinum 8275,25-03-2023,0.19,136.8,49,97,4415,No,AWS
+GoogleCloudCompute,EU (Frankfurt),AWS Region,r5d.24xlarge,No,Memory Optimized,3,Intel Xeon 2676 v3,02-10-2023,8.05,5796,93,54,3839,No,Google Cloud Platform
+GoogleCloudCompute,US West (Oregon),Azure Region,t3.micro,No,Memory Optimized,47,Intel Xeon Platinum 8280,02-02-2024,2.19,1576.8,62,70,2773,Yes,Google Cloud Platform
+AzureVM,US East (N. Virginia),AWS Region,m5d.24xlarge,Yes,General Purpose,75,Intel Xeon 2680 v2,15-08-2023,2.27,1634.4,87,50,117,No,Azure
+AzureVM,US East (N. Virginia),AWS Region,t3.micro,No,Memory Optimized,127,Intel Xeon Platinum 8275,16-01-2023,2.4,1728,57,39,2365,No,Azure
+AmazonS3,EU (Frankfurt),GCP Zone,d2.xlarge,Yes,Compute Optimized,69,Intel Xeon Platinum 8280,03-10-2023,2.21,1591.2,53,42,2094,No,AWS
+AmazonEC2,US West (Oregon),Azure Region,t3.micro,No,Storage Optimized,96,Intel Xeon 2680 v2,08-01-2023,5.18,3729.6,56,49,2429,No,AWS
+AzureVM,Asia Pacific (Singapore),Azure Region,t3.micro,Yes,General Purpose,52,Intel Xeon 2680 v2,10-02-2024,6.07,4370.4,60,47,4650,No,Azure
+AmazonS3,Asia Pacific (Singapore),Azure Region,m5d.24xlarge,No,Storage Optimized,22,Intel Xeon Platinum 8280,04-03-2024,9.71,6991.2,75,97,1235,No,AWS
+AmazonEC2,US East (N. Virginia),Azure Region,t3.micro,No,Compute Optimized,61,Intel Xeon Platinum 8280,19-09-2023,0.47,338.4,17,92,3501,No,AWS
+AmazonEC2,US East (N. Virginia),AWS Region,t3.micro,Yes,Storage Optimized,14,Intel Xeon Platinum 8275,07-03-2024,2.81,2023.2,65,58,4846,Yes,AWS
+AzureVM,US East (N. Virginia),GCP Zone,r5d.24xlarge,No,Storage Optimized,97,Intel Xeon 2676 v3,22-10-2023,8.03,5781.6,58,73,4463,No,Azure
+AzureVM,EU (Frankfurt),AWS Region,t3.micro,No,Compute Optimized,49,Intel Xeon 2680 v2,17-01-2023,1.15,828,60,68,232,No,Azure
+AmazonEC2,US West (Oregon),Azure Region,r5d.24xlarge,Yes,Compute Optimized,127,Intel Xeon 2676 v3,14-02-2023,3.95,2844,28,85,4729,No,AWS
+AmazonEC2,US East (N. Virginia),AWS Region,t3.micro,Yes,General Purpose,103,Intel Xeon Platinum 8280,07-09-2023,7.22,5198.4,34,55,3791,No,AWS
+GoogleCloudCompute,US East (N. Virginia),Azure Region,m5d.24xlarge,No,General Purpose,66,Intel Xeon Platinum 8280,22-04-2024,8.01,5767.2,45,91,1824,No,Google Cloud Platform
+AmazonS3,US East (N. Virginia),AWS Region,m5d.24xlarge,No,Memory Optimized,15,Intel Xeon 2680 v2,27-02-2024,4.13,2973.6,38,83,2547,No,AWS
+AmazonEC2,EU (Frankfurt),GCP Zone,c3.2xlarge,Yes,General Purpose,73,Intel Xeon 2680 v2,08-02-2023,8.74,6292.8,93,79,2764,No,AWS
+AmazonEC2,EU (Frankfurt),Azure Region,c3.2xlarge,Yes,Compute Optimized,126,Intel Xeon Platinum 8280,23-02-2024,4.49,3232.8,64,54,2048,Yes,AWS
+AmazonEC2,EU (Frankfurt),AWS Region,t3.micro,Yes,Storage Optimized,121,Intel Xeon 2676 v3,11-10-2023,3.88,2793.6,27,45,2708,Yes,AWS
+AmazonEC2,US East (N. Virginia),GCP Zone,c3.2xlarge,No,Storage Optimized,108,Intel Xeon 2676 v3,15-10-2023,8.23,5925.6,37,53,3184,Yes,AWS
+GoogleCloudCompute,US West (Oregon),GCP Zone,r5d.24xlarge,Yes,General Purpose,100,Intel Xeon Platinum 8280,21-02-2024,5.26,3787.2,43,65,3030,No,Google Cloud Platform
+AmazonEC2,US West (Oregon),AWS Region,t3.micro,Yes,Storage Optimized,19,Intel Xeon 2680 v2,21-07-2023,6.46,4651.2,44,52,3104,Yes,AWS
+AzureVM,Asia Pacific (Singapore),AWS Region,t3.micro,No,Storage Optimized,69,Intel Xeon Platinum 8280,22-02-2024,8.42,6062.4,65,85,4978,No,Azure
+AmazonEC2,US East (N. Virginia),GCP Zone,d2.xlarge,No,Storage Optimized,88,Intel Xeon Platinum 8275,08-03-2023,9.64,6940.8,13,35,1228,No,AWS
+GoogleCloudCompute,US West (Oregon),Azure Region,c3.2xlarge,Yes,General Purpose,6,Intel Xeon Platinum 8275,05-05-2023,4.59,3304.8,39,51,2219,No,Google Cloud Platform
+AzureVM,US West (Oregon),AWS Region,r5d.24xlarge,Yes,General Purpose,68,Intel Xeon 2676 v3,20-07-2023,9.84,7084.8,86,68,1986,No,Azure
+AmazonS3,EU (Frankfurt),AWS Region,d2.xlarge,Yes,Compute Optimized,13,Intel Xeon 2676 v3,31-12-2023,7.62,5486.4,96,60,1427,No,AWS
+GoogleCloudCompute,EU (Frankfurt),AWS Region,d2.xlarge,No,Memory Optimized,108,Intel Xeon 2680 v2,27-10-2023,8.31,5983.2,77,10,1677,No,Google Cloud Platform
+AmazonEC2,Asia Pacific (Singapore),AWS Region,c3.2xlarge,Yes,Storage Optimized,51,Intel Xeon 2680 v2,30-09-2023,7.35,5292,91,95,3785,No,AWS
+AmazonEC2,Asia Pacific (Singapore),AWS Region,m5d.24xlarge,Yes,Compute Optimized,101,Intel Xeon Platinum 8280,09-01-2024,2.29,1648.8,73,20,1895,No,AWS
+AmazonS3,EU (Frankfurt),AWS Region,r5d.24xlarge,Yes,Storage Optimized,5,Intel Xeon 2680 v2,03-07-2023,2.76,1987.2,55,21,932,No,AWS
+AmazonS3,US West (Oregon),GCP Zone,c3.2xlarge,No,General Purpose,75,Intel Xeon 2680 v2,21-03-2024,7.62,5486.4,24,36,4860,No,AWS
+GoogleCloudCompute,EU (Frankfurt),AWS Region,r5d.24xlarge,Yes,General Purpose,91,Intel Xeon 2676 v3,02-04-2023,8.28,5961.6,13,16,414,No,Google Cloud Platform
+GoogleCloudCompute,US East (N. Virginia),AWS Region,t3.micro,Yes,Compute Optimized,97,Intel Xeon Platinum 8280,24-11-2023,0.63,453.6,47,76,2540,Yes,Google Cloud Platform
+GoogleCloudCompute,EU (Frankfurt),AWS Region,c3.2xlarge,No,General Purpose,93,Intel Xeon 2676 v3,20-06-2023,8.72,6278.4,19,51,2417,No,Google Cloud Platform
+AmazonS3,US West (Oregon),GCP Zone,t3.micro,No,Memory Optimized,56,Intel Xeon 2676 v3,26-02-2023,7.94,5716.8,44,28,2361,No,AWS
+AmazonS3,Asia Pacific (Singapore),GCP Zone,r5d.24xlarge,Yes,Storage Optimized,25,Intel Xeon 2680 v2,01-01-2023,0.7,504,22,17,2285,No,AWS
+GoogleCloudCompute,US East (N. Virginia),Azure Region,c3.2xlarge,Yes,Storage Optimized,23,Intel Xeon 2680 v2,17-10-2023,0.79,568.8,13,39,2064,Yes,Google Cloud Platform
+GoogleCloudCompute,US West (Oregon),Azure Region,m5d.24xlarge,Yes,Compute Optimized,96,Intel Xeon 2676 v3,14-02-2023,9.55,6876,25,75,2472,No,Google Cloud Platform
+AmazonS3,US West (Oregon),GCP Zone,m5d.24xlarge,No,General Purpose,90,Intel Xeon 2680 v2,03-07-2023,2.96,2131.2,43,48,3001,No,AWS
+AmazonS3,EU (Frankfurt),Azure Region,r5d.24xlarge,No,Compute Optimized,103,Intel Xeon 2680 v2,22-10-2023,2.27,1634.4,39,62,2878,No,AWS
+AmazonEC2,Asia Pacific (Singapore),AWS Region,t3.micro,No,Memory Optimized,81,Intel Xeon Platinum 8275,23-01-2023,8.67,6242.4,83,19,1639,Yes,AWS
+AmazonS3,EU (Frankfurt),GCP Zone,c3.2xlarge,No,General Purpose,116,Intel Xeon 2680 v2,12-02-2024,2.91,2095.2,39,72,2357,No,AWS
+GoogleCloudCompute,US West (Oregon),GCP Zone,m5d.24xlarge,Yes,Memory Optimized,78,Intel Xeon 2676 v3,04-12-2023,8.24,5932.8,84,85,1314,No,Google Cloud Platform
+AzureVM,EU (Frankfurt),GCP Zone,t3.micro,Yes,Storage Optimized,50,Intel Xeon Platinum 8280,29-02-2024,3.41,2455.2,53,73,717,No,Azure
+AmazonEC2,Asia Pacific (Singapore),Azure Region,t3.micro,Yes,General Purpose,44,Intel Xeon Platinum 8280,10-04-2023,9.07,6530.4,60,22,1156,No,AWS
+AmazonS3,US West (Oregon),Azure Region,d2.xlarge,Yes,General Purpose,87,Intel Xeon 2676 v3,17-02-2024,3.88,2793.6,98,64,4168,No,AWS
+GoogleCloudCompute,US East (N. Virginia),AWS Region,t3.micro,No,Storage Optimized,11,Intel Xeon 2680 v2,27-03-2024,7.03,5061.6,82,30,1366,Yes,Google Cloud Platform
+AmazonEC2,EU (Frankfurt),Azure Region,m5d.24xlarge,No,Compute Optimized,99,Intel Xeon Platinum 8275,10-05-2024,2.1,1512,87,80,4122,No,AWS
+AmazonEC2,US East (N. Virginia),Azure Region,c3.2xlarge,No,Compute Optimized,73,Intel Xeon 2676 v3,03-04-2024,7.31,5263.2,95,96,1246,Yes,AWS
+AmazonEC2,US West (Oregon),Azure Region,m5d.24xlarge,No,Memory Optimized,28,Intel Xeon 2676 v3,06-05-2024,0.53,381.6,37,63,1511,No,AWS
+AmazonEC2,US West (Oregon),Azure Region,r5d.24xlarge,Yes,Compute Optimized,49,Intel Xeon 2676 v3,23-02-2023,5.16,3715.2,53,56,2150,No,AWS
+AmazonEC2,US East (N. Virginia),GCP Zone,c3.2xlarge,No,Compute Optimized,100,Intel Xeon 2676 v3,18-05-2023,0.32,230.4,12,26,3901,No,AWS
+AmazonS3,US East (N. Virginia),Azure Region,t3.micro,No,General Purpose,60,Intel Xeon 2676 v3,18-08-2023,7.63,5493.6,37,25,3808,No,AWS
+AmazonS3,EU (Frankfurt),Azure Region,d2.xlarge,No,Memory Optimized,47,Intel Xeon 2676 v3,21-08-2023,1.21,871.2,15,16,4113,No,AWS
+AmazonEC2,US East (N. Virginia),Azure Region,c3.2xlarge,Yes,Storage Optimized,57,Intel Xeon 2676 v3,12-01-2023,0.02,14.4,52,86,3768,No,AWS
+GoogleCloudCompute,US East (N. Virginia),Azure Region,t3.micro,Yes,Compute Optimized,120,Intel Xeon Platinum 8280,14-02-2023,3.99,2872.8,13,76,4046,No,Google Cloud Platform
+AzureVM,EU (Frankfurt),AWS Region,m5d.24xlarge,Yes,Storage Optimized,90,Intel Xeon Platinum 8280,31-03-2023,9.9,7128,14,65,2705,No,Azure
+GoogleCloudCompute,Asia Pacific (Singapore),GCP Zone,t3.micro,Yes,Memory Optimized,90,Intel Xeon Platinum 8280,18-07-2023,1.42,1022.4,35,34,510,No,Google Cloud Platform
+AmazonS3,US West (Oregon),Azure Region,m5d.24xlarge,Yes,Memory Optimized,65,Intel Xeon 2680 v2,24-06-2023,9.18,6609.6,97,63,1773,No,AWS
+GoogleCloudCompute,US East (N. Virginia),GCP Zone,c3.2xlarge,No,Compute Optimized,114,Intel Xeon 2680 v2,25-03-2023,6.31,4543.2,84,63,1746,No,Google Cloud Platform
+GoogleCloudCompute,EU (Frankfurt),Azure Region,d2.xlarge,No,Compute Optimized,46,Intel Xeon 2680 v2,25-01-2024,2.75,1980,95,71,2399,No,Google Cloud Platform
+AzureVM,Asia Pacific (Singapore),GCP Zone,d2.xlarge,No,Storage Optimized,109,Intel Xeon Platinum 8275,18-04-2023,8.44,6076.8,84,86,1596,No,Azure
+AmazonS3,EU (Frankfurt),AWS Region,m5d.24xlarge,Yes,Storage Optimized,48,Intel Xeon Platinum 8280,16-11-2023,9.53,6861.6,71,85,406,No,AWS
+GoogleCloudCompute,Asia Pacific (Singapore),Azure Region,c3.2xlarge,No,General Purpose,4,Intel Xeon Platinum 8280,06-01-2024,7.32,5270.4,26,52,294,No,Google Cloud Platform
+AzureVM,Asia Pacific (Singapore),AWS Region,c3.2xlarge,No,General Purpose,96,Intel Xeon Platinum 8280,09-05-2024,2.33,1677.6,52,48,4332,No,Azure
+AzureVM,EU (Frankfurt),AWS Region,m5d.24xlarge,Yes,Compute Optimized,74,Intel Xeon Platinum 8280,11-04-2023,3.78,2721.6,37,51,3376,No,Azure
+AmazonS3,EU (Frankfurt),GCP Zone,r5d.24xlarge,No,Compute Optimized,27,Intel Xeon 2680 v2,15-12-2023,4.81,3463.2,22,54,4155,No,AWS
+AzureVM,US West (Oregon),Azure Region,r5d.24xlarge,No,Memory Optimized,1,Intel Xeon Platinum 8280,30-03-2023,7.61,5479.2,76,93,2501,No,Azure
+GoogleCloudCompute,Asia Pacific (Singapore),AWS Region,r5d.24xlarge,No,General Purpose,17,Intel Xeon 2676 v3,22-06-2023,2.52,1814.4,93,62,3212,No,Google Cloud Platform
+AmazonEC2,EU (Frankfurt),AWS Region,c3.2xlarge,No,Compute Optimized,20,Intel Xeon Platinum 8280,09-12-2023,5.06,3643.2,84,50,4250,No,AWS
+AmazonEC2,US East (N. Virginia),GCP Zone,c3.2xlarge,No,Compute Optimized,41,Intel Xeon 2680 v2,09-03-2023,5.82,4190.4,20,65,710,No,AWS
+AzureVM,Asia Pacific (Singapore),Azure Region,d2.xlarge,No,Memory Optimized,47,Intel Xeon Platinum 8275,23-11-2023,8.46,6091.2,14,30,4607,No,Azure
+AzureVM,US West (Oregon),Azure Region,c3.2xlarge,No,Compute Optimized,93,Intel Xeon Platinum 8280,10-02-2023,2.96,2131.2,55,37,3615,Yes,Azure
+AmazonS3,EU (Frankfurt),Azure Region,r5d.24xlarge,Yes,Compute Optimized,67,Intel Xeon Platinum 8275,07-10-2023,8.27,5954.4,72,70,3657,No,AWS
+AmazonS3,Asia Pacific (Singapore),GCP Zone,t3.micro,Yes,Memory Optimized,53,Intel Xeon Platinum 8280,26-04-2023,4.26,3067.2,78,62,4826,Yes,AWS
+AmazonEC2,US West (Oregon),GCP Zone,d2.xlarge,Yes,General Purpose,40,Intel Xeon Platinum 8275,13-04-2023,3.05,2196,70,93,433,Yes,AWS
+GoogleCloudCompute,US West (Oregon),GCP Zone,r5d.24xlarge,Yes,Storage Optimized,111,Intel Xeon 2680 v2,28-03-2024,7.59,5464.8,67,59,3663,No,Google Cloud Platform
+AmazonEC2,US West (Oregon),Azure Region,r5d.24xlarge,No,Compute Optimized,126,Intel Xeon Platinum 8280,14-01-2024,10,7200,48,25,2601,No,AWS
+AzureVM,US East (N. Virginia),AWS Region,r5d.24xlarge,Yes,Memory Optimized,42,Intel Xeon 2676 v3,01-02-2023,1.68,1209.6,18,90,3772,No,Azure
+AzureVM,US East (N. Virginia),AWS Region,m5d.24xlarge,No,Storage Optimized,111,Intel Xeon 2680 v2,03-05-2023,7.59,5464.8,74,72,1802,No,Azure
+AmazonEC2,US East (N. Virginia),Azure Region,c3.2xlarge,No,Memory Optimized,96,Intel Xeon Platinum 8275,14-01-2024,8.04,5788.8,32,48,558,No,AWS
+AmazonEC2,EU (Frankfurt),Azure Region,t3.micro,Yes,Compute Optimized,13,Intel Xeon 2676 v3,19-09-2023,6.65,4788,12,90,610,No,AWS
+GoogleCloudCompute,US East (N. Virginia),Azure Region,t3.micro,Yes,Memory Optimized,90,Intel Xeon Platinum 8275,10-04-2023,7.86,5659.2,77,27,418,Yes,Google Cloud Platform
+AmazonS3,Asia Pacific (Singapore),GCP Zone,c3.2xlarge,Yes,General Purpose,34,Intel Xeon 2680 v2,04-09-2023,2.36,1699.2,68,38,3972,No,AWS
+AmazonEC2,US East (N. Virginia),Azure Region,d2.xlarge,Yes,Compute Optimized,27,Intel Xeon Platinum 8280,25-01-2024,1.19,856.8,73,71,708,No,AWS
+GoogleCloudCompute,Asia Pacific (Singapore),GCP Zone,t3.micro,No,Memory Optimized,68,Intel Xeon Platinum 8280,31-05-2023,3.17,2282.4,31,66,4118,Yes,Google Cloud Platform
+AzureVM,US West (Oregon),Azure Region,r5d.24xlarge,No,Storage Optimized,119,Intel Xeon Platinum 8275,28-06-2023,0.13,93.6,89,81,162,Yes,Azure
+AmazonEC2,Asia Pacific (Singapore),AWS Region,r5d.24xlarge,No,Compute Optimized,6,Intel Xeon 2680 v2,05-01-2023,7.33,5277.6,87,78,937,No,AWS
+AzureVM,EU (Frankfurt),AWS Region,r5d.24xlarge,No,Compute Optimized,123,Intel Xeon 2676 v3,22-04-2024,3.75,2700,77,42,3815,No,Azure
+GoogleCloudCompute,EU (Frankfurt),Azure Region,r5d.24xlarge,No,General Purpose,93,Intel Xeon Platinum 8280,08-02-2024,2.79,2008.8,91,72,2811,No,Google Cloud Platform
+AmazonS3,EU (Frankfurt),GCP Zone,d2.xlarge,No,Compute Optimized,66,Intel Xeon 2676 v3,27-02-2023,1.14,820.8,71,50,2038,No,AWS
+AmazonS3,US East (N. Virginia),AWS Region,r5d.24xlarge,Yes,Storage Optimized,71,Intel Xeon Platinum 8275,22-01-2024,2.06,1483.2,98,44,257,No,AWS
+AmazonS3,EU (Frankfurt),GCP Zone,c3.2xlarge,Yes,Memory Optimized,39,Intel Xeon Platinum 8275,06-06-2023,9.26,6667.2,29,50,2245,No,AWS
+AmazonS3,Asia Pacific (Singapore),Azure Region,c3.2xlarge,No,Compute Optimized,34,Intel Xeon 2676 v3,19-11-2023,3.74,2692.8,36,19,4218,No,AWS
+AmazonS3,EU (Frankfurt),AWS Region,r5d.24xlarge,No,Memory Optimized,124,Intel Xeon 2676 v3,17-02-2024,1.75,1260,92,35,4966,No,AWS
+AzureVM,Asia Pacific (Singapore),AWS Region,r5d.24xlarge,No,General Purpose,100,Intel Xeon 2676 v3,18-02-2024,6.8,4896,37,74,2978,No,Azure
+GoogleCloudCompute,US East (N. Virginia),AWS Region,m5d.24xlarge,Yes,Compute Optimized,10,Intel Xeon Platinum 8280,14-03-2023,8.4,6048,41,41,225,No,Google Cloud Platform
+AzureVM,EU (Frankfurt),Azure Region,c3.2xlarge,Yes,Storage Optimized,123,Intel Xeon 2680 v2,07-05-2023,8.07,5810.4,24,13,3726,No,Azure
+GoogleCloudCompute,EU (Frankfurt),Azure Region,m5d.24xlarge,Yes,Memory Optimized,121,Intel Xeon 2680 v2,19-06-2023,7.01,5047.2,49,48,418,No,Google Cloud Platform
+GoogleCloudCompute,US West (Oregon),Azure Region,t3.micro,Yes,General Purpose,69,Intel Xeon Platinum 8275,07-03-2024,9.11,6559.2,84,70,3060,No,Google Cloud Platform
+AmazonEC2,Asia Pacific (Singapore),GCP Zone,c3.2xlarge,No,General Purpose,127,Intel Xeon Platinum 8275,13-06-2023,9.33,6717.6,86,55,2484,No,AWS
+AmazonEC2,Asia Pacific (Singapore),Azure Region,r5d.24xlarge,No,General Purpose,81,Intel Xeon 2680 v2,25-01-2024,8,5760,48,69,2893,No,AWS
+AmazonEC2,US East (N. Virginia),GCP Zone,r5d.24xlarge,Yes,General Purpose,61,Intel Xeon 2676 v3,29-12-2023,6.38,4593.6,49,45,3747,No,AWS
+AmazonEC2,Asia Pacific (Singapore),GCP Zone,c3.2xlarge,Yes,General Purpose,11,Intel Xeon 2676 v3,04-07-2023,2.02,1454.4,95,16,3694,No,AWS
+AmazonS3,US West (Oregon),Azure Region,t3.micro,Yes,Memory Optimized,78,Intel Xeon 2676 v3,30-08-2023,4.09,2944.8,47,94,974,Yes,AWS
+AzureVM,US West (Oregon),AWS Region,c3.2xlarge,Yes,Memory Optimized,109,Intel Xeon Platinum 8275,25-03-2023,4.47,3218.4,77,78,245,No,Azure
+GoogleCloudCompute,US West (Oregon),GCP Zone,t3.micro,Yes,Compute Optimized,63,Intel Xeon 2676 v3,21-02-2023,8.73,6285.6,64,55,2641,No,Google Cloud Platform
+AmazonEC2,US West (Oregon),GCP Zone,c3.2xlarge,Yes,General Purpose,58,Intel Xeon Platinum 8275,02-12-2023,8.76,6307.2,94,70,186,Yes,AWS
+AmazonEC2,Asia Pacific (Singapore),Azure Region,t3.micro,No,Compute Optimized,42,Intel Xeon Platinum 8275,09-04-2024,3.45,2484,89,76,2992,No,AWS
+AmazonEC2,Asia Pacific (Singapore),AWS Region,d2.xlarge,No,General Purpose,116,Intel Xeon Platinum 8275,22-04-2023,1.18,849.6,26,94,4595,No,AWS
+AmazonS3,EU (Frankfurt),GCP Zone,t3.micro,No,Compute Optimized,126,Intel Xeon Platinum 8275,20-02-2024,8.91,6415.2,87,19,3117,No,AWS
+AzureVM,US East (N. Virginia),GCP Zone,m5d.24xlarge,Yes,General Purpose,39,Intel Xeon Platinum 8275,16-02-2023,3.92,2822.4,28,24,3503,No,Azure
+AmazonS3,Asia Pacific (Singapore),AWS Region,t3.micro,Yes,Compute Optimized,62,Intel Xeon 2680 v2,19-01-2023,6.79,4888.8,49,56,498,No,AWS
+AzureVM,Asia Pacific (Singapore),AWS Region,t3.micro,No,Compute Optimized,48,Intel Xeon Platinum 8275,24-07-2023,6.97,5018.4,73,70,3022,No,Azure
+AmazonS3,EU (Frankfurt),AWS Region,d2.xlarge,Yes,General Purpose,49,Intel Xeon Platinum 8275,07-01-2023,7.73,5565.6,62,74,1826,No,AWS
+GoogleCloudCompute,US East (N. Virginia),Azure Region,d2.xlarge,Yes,Memory Optimized,29,Intel Xeon 2680 v2,05-05-2024,6.89,4960.8,25,34,3943,No,Google Cloud Platform
+AmazonS3,US West (Oregon),AWS Region,d2.xlarge,Yes,General Purpose,80,Intel Xeon 2680 v2,13-05-2024,1.28,921.6,80,87,3534,No,AWS
+AzureVM,US East (N. Virginia),AWS Region,r5d.24xlarge,Yes,Compute Optimized,46,Intel Xeon 2676 v3,26-02-2023,8.04,5788.8,60,57,243,Yes,Azure
+AzureVM,EU (Frankfurt),Azure Region,t3.micro,No,Storage Optimized,79,Intel Xeon Platinum 8280,26-04-2023,6.49,4672.8,54,91,2654,No,Azure
+AmazonS3,US West (Oregon),AWS Region,r5d.24xlarge,No,Compute Optimized,67,Intel Xeon Platinum 8275,03-01-2023,3.51,2527.2,73,49,2671,No,AWS
+AmazonS3,US West (Oregon),Azure Region,c3.2xlarge,Yes,Memory Optimized,96,Intel Xeon Platinum 8275,18-02-2024,2.18,1569.6,71,58,720,No,AWS
+AmazonEC2,US West (Oregon),Azure Region,t3.micro,No,Storage Optimized,73,Intel Xeon 2676 v3,10-11-2023,7.82,5630.4,54,71,2904,No,AWS
+AmazonS3,US East (N. Virginia),Azure Region,d2.xlarge,Yes,Storage Optimized,44,Intel Xeon 2680 v2,28-02-2023,1.71,1231.2,18,15,3022,No,AWS
+AmazonS3,Asia Pacific (Singapore),Azure Region,r5d.24xlarge,Yes,Storage Optimized,90,Intel Xeon Platinum 8280,04-05-2024,5.79,4168.8,95,71,2941,No,AWS
+AmazonEC2,Asia Pacific (Singapore),GCP Zone,r5d.24xlarge,Yes,Storage Optimized,109,Intel Xeon Platinum 8275,21-01-2024,4.25,3060,85,19,2397,No,AWS
+AmazonS3,US East (N. Virginia),GCP Zone,c3.2xlarge,No,Storage Optimized,115,Intel Xeon 2676 v3,06-10-2023,6.6,4752,71,47,2602,No,AWS
+AzureVM,Asia Pacific (Singapore),GCP Zone,d2.xlarge,Yes,General Purpose,45,Intel Xeon Platinum 8280,05-06-2023,4.64,3340.8,22,36,2965,No,Azure
+AzureVM,Asia Pacific (Singapore),AWS Region,m5d.24xlarge,No,Memory Optimized,119,Intel Xeon 2676 v3,16-04-2024,0.89,640.8,93,85,210,No,Azure
+AmazonEC2,US East (N. Virginia),Azure Region,d2.xlarge,Yes,Storage Optimized,35,Intel Xeon Platinum 8275,05-01-2023,6.3,4536,55,59,3809,No,AWS
+AmazonS3,EU (Frankfurt),Azure Region,d2.xlarge,Yes,Storage Optimized,77,Intel Xeon 2676 v3,06-02-2024,8.45,6084,84,63,3889,No,AWS
+GoogleCloudCompute,US West (Oregon),Azure Region,d2.xlarge,Yes,Memory Optimized,96,Intel Xeon 2680 v2,02-04-2024,0.07,50.4,44,24,3521,No,Google Cloud Platform
+AmazonEC2,Asia Pacific (Singapore),Azure Region,r5d.24xlarge,Yes,Memory Optimized,54,Intel Xeon Platinum 8275,18-02-2024,3.13,2253.6,57,44,215,Yes,AWS
+AmazonS3,EU (Frankfurt),AWS Region,m5d.24xlarge,No,Memory Optimized,79,Intel Xeon Platinum 8280,23-08-2023,0.06,43.2,12,89,4854,No,AWS
+AzureVM,Asia Pacific (Singapore),AWS Region,m5d.24xlarge,Yes,Compute Optimized,127,Intel Xeon Platinum 8275,20-06-2023,6.76,4867.2,70,52,2308,No,Azure
+GoogleCloudCompute,EU (Frankfurt),GCP Zone,m5d.24xlarge,Yes,Memory Optimized,59,Intel Xeon 2680 v2,20-02-2023,4.44,3196.8,59,13,2267,No,Google Cloud Platform
+AmazonEC2,EU (Frankfurt),Azure Region,r5d.24xlarge,Yes,General Purpose,27,Intel Xeon Platinum 8275,01-07-2023,3.74,2692.8,96,84,2374,No,AWS
+GoogleCloudCompute,US East (N. Virginia),Azure Region,t3.micro,Yes,General Purpose,74,Intel Xeon 2676 v3,05-12-2023,7.48,5385.6,80,13,1728,No,Google Cloud Platform
+AzureVM,EU (Frankfurt),GCP Zone,t3.micro,Yes,General Purpose,14,Intel Xeon 2676 v3,08-02-2024,6.86,4939.2,42,68,256,No,Azure
+AzureVM,US West (Oregon),GCP Zone,r5d.24xlarge,No,Storage Optimized,90,Intel Xeon 2676 v3,13-01-2023,1.55,1116,46,58,2839,No,Azure
+AzureVM,EU (Frankfurt),Azure Region,m5d.24xlarge,No,Memory Optimized,22,Intel Xeon Platinum 8280,08-01-2023,0.67,482.4,99,39,4785,No,Azure
+GoogleCloudCompute,US West (Oregon),GCP Zone,r5d.24xlarge,Yes,Storage Optimized,45,Intel Xeon Platinum 8275,27-08-2023,6.84,4924.8,36,62,3377,No,Google Cloud Platform
+GoogleCloudCompute,Asia Pacific (Singapore),AWS Region,c3.2xlarge,Yes,Memory Optimized,95,Intel Xeon Platinum 8275,09-11-2023,4.66,3355.2,29,62,3906,No,Google Cloud Platform
+AzureVM,US East (N. Virginia),Azure Region,r5d.24xlarge,No,General Purpose,71,Intel Xeon Platinum 8280,27-02-2023,2.3,1656,29,59,2825,No,Azure
+AmazonS3,Asia Pacific (Singapore),AWS Region,m5d.24xlarge,Yes,Compute Optimized,126,Intel Xeon 2680 v2,23-10-2023,1.15,828,65,32,4505,No,AWS
+AmazonS3,US West (Oregon),AWS Region,m5d.24xlarge,No,Memory Optimized,28,Intel Xeon 2680 v2,24-02-2024,6.74,4852.8,45,35,3207,No,AWS
+AzureVM,US West (Oregon),GCP Zone,c3.2xlarge,Yes,Memory Optimized,11,Intel Xeon Platinum 8280,29-10-2023,8.04,5788.8,78,73,4631,No,Azure
+AmazonS3,EU (Frankfurt),Azure Region,m5d.24xlarge,No,Storage Optimized,62,Intel Xeon Platinum 8275,25-05-2023,4.42,3182.4,66,64,2203,No,AWS
+AzureVM,US East (N. Virginia),GCP Zone,d2.xlarge,Yes,Storage Optimized,18,Intel Xeon Platinum 8275,04-04-2024,7.77,5594.4,24,24,1576,No,Azure
+AmazonEC2,US West (Oregon),AWS Region,m5d.24xlarge,No,Memory Optimized,85,Intel Xeon 2676 v3,29-11-2023,7.42,5342.4,72,85,3159,No,AWS
+GoogleCloudCompute,US East (N. Virginia),Azure Region,c3.2xlarge,No,Memory Optimized,39,Intel Xeon Platinum 8280,06-07-2023,7.63,5493.6,71,22,2974,No,Google Cloud Platform
+AmazonEC2,EU (Frankfurt),Azure Region,d2.xlarge,Yes,Storage Optimized,90,Intel Xeon 2676 v3,05-04-2023,4.03,2901.6,48,81,2942,No,AWS
+AzureVM,Asia Pacific (Singapore),GCP Zone,m5d.24xlarge,Yes,General Purpose,67,Intel Xeon Platinum 8280,11-05-2023,1.84,1324.8,89,31,2344,No,Azure
+AmazonEC2,EU (Frankfurt),GCP Zone,r5d.24xlarge,No,Memory Optimized,59,Intel Xeon Platinum 8280,26-06-2023,7.3,5256,78,71,357,No,AWS
+AmazonEC2,Asia Pacific (Singapore),GCP Zone,d2.xlarge,No,Storage Optimized,103,Intel Xeon Platinum 8275,10-02-2024,7.52,5414.4,54,51,325,No,AWS
+AmazonEC2,EU (Frankfurt),AWS Region,t3.micro,Yes,Compute Optimized,17,Intel Xeon Platinum 8280,27-02-2023,2.38,1713.6,32,55,377,No,AWS
+AzureVM,Asia Pacific (Singapore),Azure Region,d2.xlarge,Yes,Compute Optimized,113,Intel Xeon Platinum 8280,17-04-2024,7.03,5061.6,11,91,962,No,Azure
+AmazonEC2,US West (Oregon),GCP Zone,d2.xlarge,No,General Purpose,82,Intel Xeon 2680 v2,20-06-2023,0.31,223.2,30,64,3033,No,AWS
+GoogleCloudCompute,US East (N. Virginia),GCP Zone,m5d.24xlarge,Yes,Compute Optimized,87,Intel Xeon Platinum 8280,29-06-2023,2.79,2008.8,66,61,2746,No,Google Cloud Platform
+AmazonEC2,US West (Oregon),Azure Region,r5d.24xlarge,No,Storage Optimized,9,Intel Xeon Platinum 8280,28-09-2023,4.66,3355.2,87,66,3001,No,AWS
+AzureVM,US West (Oregon),AWS Region,r5d.24xlarge,No,General Purpose,62,Intel Xeon Platinum 8275,19-05-2023,5.69,4096.8,26,41,2603,No,Azure
+AmazonEC2,US West (Oregon),Azure Region,c3.2xlarge,No,Compute Optimized,109,Intel Xeon Platinum 8280,13-05-2024,5.25,3780,58,20,866,No,AWS
+AzureVM,Asia Pacific (Singapore),Azure Region,m5d.24xlarge,Yes,Compute Optimized,6,Intel Xeon Platinum 8275,03-07-2023,3.18,2289.6,75,47,3240,No,Azure
+AmazonS3,US West (Oregon),GCP Zone,c3.2xlarge,Yes,Memory Optimized,36,Intel Xeon 2676 v3,26-09-2023,0.11,79.2,41,90,3226,No,AWS
+AmazonS3,EU (Frankfurt),Azure Region,c3.2xlarge,No,Memory Optimized,110,Intel Xeon Platinum 8280,03-07-2023,4.43,3189.6,10,51,4355,No,AWS
+AmazonEC2,Asia Pacific (Singapore),GCP Zone,m5d.24xlarge,No,Storage Optimized,27,Intel Xeon 2680 v2,02-01-2024,1.64,1180.8,85,40,1448,No,AWS
+AmazonEC2,Asia Pacific (Singapore),GCP Zone,r5d.24xlarge,No,Storage Optimized,126,Intel Xeon 2676 v3,04-05-2024,9.05,6516,29,73,3131,No,AWS
+AmazonS3,US East (N. Virginia),Azure Region,c3.2xlarge,Yes,Storage Optimized,113,Intel Xeon Platinum 8275,12-06-2023,2.13,1533.6,62,53,2448,No,AWS
+AmazonS3,Asia Pacific (Singapore),Azure Region,t3.micro,No,Compute Optimized,66,Intel Xeon 2676 v3,22-01-2024,3.43,2469.6,98,93,677,No,AWS
+AzureVM,US East (N. Virginia),AWS Region,m5d.24xlarge,No,Compute Optimized,15,Intel Xeon 2676 v3,07-09-2023,1.38,993.6,88,55,1033,No,Azure
+AmazonEC2,EU (Frankfurt),AWS Region,r5d.24xlarge,No,Storage Optimized,47,Intel Xeon Platinum 8275,27-03-2024,5.82,4190.4,30,95,1736,No,AWS
+AmazonS3,EU (Frankfurt),GCP Zone,t3.micro,No,Compute Optimized,72,Intel Xeon Platinum 8275,22-07-2023,8.01,5767.2,14,62,360,No,AWS
+GoogleCloudCompute,US East (N. Virginia),GCP Zone,d2.xlarge,Yes,Compute Optimized,59,Intel Xeon Platinum 8280,02-01-2023,7.39,5320.8,69,60,2061,No,Google Cloud Platform
+GoogleCloudCompute,EU (Frankfurt),AWS Region,r5d.24xlarge,No,Memory Optimized,64,Intel Xeon 2680 v2,16-01-2024,8.19,5896.8,82,67,1769,No,Google Cloud Platform
+GoogleCloudCompute,Asia Pacific (Singapore),AWS Region,m5d.24xlarge,Yes,Memory Optimized,22,Intel Xeon Platinum 8280,11-04-2023,6.14,4420.8,74,72,1499,No,Google Cloud Platform
+AmazonEC2,EU (Frankfurt),GCP Zone,r5d.24xlarge,Yes,Storage Optimized,8,Intel Xeon 2676 v3,24-06-2023,0.53,381.6,99,22,706,No,AWS
+AmazonS3,EU (Frankfurt),AWS Region,r5d.24xlarge,No,General Purpose,111,Intel Xeon Platinum 8280,20-03-2024,5.77,4154.4,36,22,1826,No,AWS
+AmazonS3,Asia Pacific (Singapore),GCP Zone,d2.xlarge,No,General Purpose,49,Intel Xeon Platinum 8275,05-08-2023,6.02,4334.4,56,14,1035,No,AWS
+AzureVM,Asia Pacific (Singapore),GCP Zone,c3.2xlarge,No,Compute Optimized,121,Intel Xeon 2676 v3,06-04-2024,0.69,496.8,53,24,4164,No,Azure
+GoogleCloudCompute,US West (Oregon),Azure Region,t3.micro,Yes,Memory Optimized,20,Intel Xeon Platinum 8280,12-06-2023,4.04,2908.8,57,53,1945,No,Google Cloud Platform
+AmazonEC2,US East (N. Virginia),Azure Region,r5d.24xlarge,No,Compute Optimized,99,Intel Xeon Platinum 8280,13-06-2023,4.14,2980.8,67,23,2006,Yes,AWS
+GoogleCloudCompute,EU (Frankfurt),Azure Region,m5d.24xlarge,No,General Purpose,4,Intel Xeon 2680 v2,12-12-2023,1.69,1216.8,75,40,4916,No,Google Cloud Platform
+AmazonS3,Asia Pacific (Singapore),Azure Region,t3.micro,Yes,Compute Optimized,66,Intel Xeon Platinum 8280,12-03-2023,9.34,6724.8,66,89,4116,Yes,AWS
+AzureVM,EU (Frankfurt),GCP Zone,d2.xlarge,Yes,Compute Optimized,39,Intel Xeon Platinum 8280,08-04-2023,8.25,5940,54,32,502,Yes,Azure
+AmazonS3,EU (Frankfurt),AWS Region,m5d.24xlarge,No,Compute Optimized,23,Intel Xeon 2676 v3,15-10-2023,4.34,3124.8,24,49,657,No,AWS
+AzureVM,US West (Oregon),GCP Zone,r5d.24xlarge,Yes,Memory Optimized,106,Intel Xeon Platinum 8275,26-10-2023,9.78,7041.6,13,72,1525,No,Azure
+GoogleCloudCompute,US East (N. Virginia),GCP Zone,r5d.24xlarge,No,Compute Optimized,84,Intel Xeon 2676 v3,03-01-2024,6.2,4464,86,12,2173,No,Google Cloud Platform
+AmazonEC2,EU (Frankfurt),AWS Region,r5d.24xlarge,Yes,Compute Optimized,23,Intel Xeon 2676 v3,24-03-2023,8.87,6386.4,78,56,2981,No,AWS
+AzureVM,US East (N. Virginia),GCP Zone,d2.xlarge,No,Storage Optimized,111,Intel Xeon 2680 v2,15-03-2023,8.98,6465.6,67,50,1098,No,Azure
+AmazonS3,US West (Oregon),GCP Zone,c3.2xlarge,Yes,Memory Optimized,11,Intel Xeon 2680 v2,09-02-2024,9.48,6825.6,16,90,2991,No,AWS
+AmazonS3,US East (N. Virginia),GCP Zone,c3.2xlarge,No,Memory Optimized,75,Intel Xeon Platinum 8280,29-08-2023,0.11,79.2,68,99,4636,No,AWS
+AmazonS3,EU (Frankfurt),AWS Region,m5d.24xlarge,Yes,General Purpose,2,Intel Xeon 2676 v3,11-11-2023,5.36,3859.2,88,81,1952,No,AWS
+GoogleCloudCompute,US West (Oregon),AWS Region,r5d.24xlarge,Yes,Memory Optimized,125,Intel Xeon 2680 v2,11-01-2024,2.6,1872,17,78,139,Yes,Google Cloud Platform
+AmazonS3,EU (Frankfurt),AWS Region,m5d.24xlarge,Yes,General Purpose,23,Intel Xeon Platinum 8280,27-09-2023,7.53,5421.6,61,46,4340,No,AWS
+GoogleCloudCompute,EU (Frankfurt),Azure Region,d2.xlarge,No,Compute Optimized,64,Intel Xeon 2680 v2,27-01-2023,9.11,6559.2,38,29,4983,No,Google Cloud Platform
+AzureVM,EU (Frankfurt),GCP Zone,d2.xlarge,No,Storage Optimized,30,Intel Xeon 2680 v2,02-10-2023,6.97,5018.4,22,52,879,No,Azure
+AmazonS3,EU (Frankfurt),Azure Region,m5d.24xlarge,Yes,Memory Optimized,115,Intel Xeon Platinum 8275,07-02-2023,2.41,1735.2,88,66,197,No,AWS
+AmazonS3,EU (Frankfurt),GCP Zone,d2.xlarge,No,Memory Optimized,126,Intel Xeon Platinum 8275,14-06-2023,0.83,597.6,77,53,4763,No,AWS
+AmazonS3,Asia Pacific (Singapore),GCP Zone,r5d.24xlarge,Yes,Compute Optimized,61,Intel Xeon Platinum 8275,05-12-2023,9.85,7092,41,75,4332,No,AWS
+AzureVM,EU (Frankfurt),AWS Region,d2.xlarge,Yes,Memory Optimized,88,Intel Xeon 2680 v2,30-01-2024,5.57,4010.4,13,80,4000,No,Azure
+GoogleCloudCompute,US East (N. Virginia),AWS Region,r5d.24xlarge,No,Storage Optimized,65,Intel Xeon Platinum 8275,20-04-2024,7.81,5623.2,80,11,1181,Yes,Google Cloud Platform
+GoogleCloudCompute,US West (Oregon),GCP Zone,r5d.24xlarge,Yes,Compute Optimized,67,Intel Xeon Platinum 8280,14-07-2023,6.77,4874.4,63,75,4801,Yes,Google Cloud Platform
+AzureVM,EU (Frankfurt),GCP Zone,m5d.24xlarge,Yes,Storage Optimized,125,Intel Xeon 2676 v3,19-03-2024,9.43,6789.6,86,51,2400,Yes,Azure
+AmazonS3,US East (N. Virginia),GCP Zone,t3.micro,No,General Purpose,107,Intel Xeon Platinum 8275,10-02-2023,9.97,7178.4,41,99,3722,No,AWS
+AmazonS3,US East (N. Virginia),GCP Zone,t3.micro,No,Storage Optimized,121,Intel Xeon 2676 v3,25-06-2023,0.29,208.8,69,75,4466,No,AWS
+AmazonS3,US West (Oregon),GCP Zone,r5d.24xlarge,No,Memory Optimized,57,Intel Xeon 2676 v3,13-07-2023,0.51,367.2,21,37,2222,Yes,AWS
+AmazonEC2,EU (Frankfurt),GCP Zone,d2.xlarge,No,Storage Optimized,14,Intel Xeon 2676 v3,08-05-2023,8.63,6213.6,31,79,4181,No,AWS
+AzureVM,EU (Frankfurt),Azure Region,d2.xlarge,No,Storage Optimized,89,Intel Xeon Platinum 8280,21-02-2024,8.38,6033.6,29,27,244,No,Azure
+AmazonEC2,Asia Pacific (Singapore),Azure Region,d2.xlarge,No,Compute Optimized,104,Intel Xeon Platinum 8275,06-04-2024,4.43,3189.6,87,79,2493,No,AWS
+AmazonEC2,Asia Pacific (Singapore),GCP Zone,d2.xlarge,Yes,General Purpose,32,Intel Xeon Platinum 8275,13-02-2023,9.24,6652.8,63,53,659,No,AWS
+GoogleCloudCompute,US West (Oregon),Azure Region,r5d.24xlarge,No,Memory Optimized,43,Intel Xeon 2680 v2,02-09-2023,7.12,5126.4,26,92,2287,No,Google Cloud Platform
+AmazonS3,US East (N. Virginia),Azure Region,m5d.24xlarge,Yes,Compute Optimized,73,Intel Xeon 2680 v2,22-11-2023,8.12,5846.4,31,75,4982,No,AWS
+AmazonEC2,US West (Oregon),Azure Region,t3.micro,No,Storage Optimized,87,Intel Xeon Platinum 8280,16-03-2023,8.3,5976,63,97,4092,No,AWS
+AzureVM,US West (Oregon),Azure Region,m5d.24xlarge,No,Memory Optimized,65,Intel Xeon Platinum 8275,27-02-2023,4.77,3434.4,10,90,4851,No,Azure
+AzureVM,US West (Oregon),AWS Region,r5d.24xlarge,Yes,Memory Optimized,60,Intel Xeon Platinum 8275,16-07-2023,5.79,4168.8,85,93,1694,No,Azure
+GoogleCloudCompute,US West (Oregon),Azure Region,r5d.24xlarge,No,Memory Optimized,45,Intel Xeon Platinum 8275,21-05-2023,6.74,4852.8,66,95,1549,No,Google Cloud Platform
+AmazonEC2,US East (N. Virginia),GCP Zone,r5d.24xlarge,Yes,Storage Optimized,116,Intel Xeon Platinum 8280,25-10-2023,5.24,3772.8,35,32,348,No,AWS
+AmazonEC2,US West (Oregon),Azure Region,r5d.24xlarge,No,Memory Optimized,95,Intel Xeon Platinum 8275,06-04-2024,0.49,352.8,51,36,2903,No,AWS
+GoogleCloudCompute,US West (Oregon),GCP Zone,m5d.24xlarge,No,Compute Optimized,42,Intel Xeon Platinum 8280,06-03-2023,9.77,7034.4,81,68,4007,No,Google Cloud Platform
+GoogleCloudCompute,Asia Pacific (Singapore),Azure Region,d2.xlarge,No,Compute Optimized,12,Intel Xeon 2676 v3,24-12-2023,5.57,4010.4,52,60,1702,No,Google Cloud Platform
+AmazonEC2,US West (Oregon),AWS Region,d2.xlarge,Yes,Compute Optimized,118,Intel Xeon 2676 v3,16-03-2024,9.67,6962.4,13,84,415,No,AWS
+AmazonS3,EU (Frankfurt),AWS Region,d2.xlarge,Yes,General Purpose,28,Intel Xeon Platinum 8275,02-01-2024,3.46,2491.2,34,63,2879,No,AWS
+AzureVM,US West (Oregon),AWS Region,r5d.24xlarge,No,General Purpose,30,Intel Xeon Platinum 8280,03-04-2023,8.73,6285.6,98,60,2715,No,Azure
+AmazonEC2,US West (Oregon),GCP Zone,m5d.24xlarge,No,General Purpose,64,Intel Xeon Platinum 8275,05-08-2023,9.41,6775.2,31,90,3843,No,AWS
+AzureVM,EU (Frankfurt),AWS Region,d2.xlarge,No,General Purpose,91,Intel Xeon Platinum 8280,10-06-2023,1.28,921.6,62,69,979,Yes,Azure
+AmazonS3,Asia Pacific (Singapore),GCP Zone,c3.2xlarge,No,Compute Optimized,71,Intel Xeon 2676 v3,27-06-2023,8.72,6278.4,44,17,3886,No,AWS
+AmazonS3,EU (Frankfurt),Azure Region,r5d.24xlarge,Yes,Storage Optimized,78,Intel Xeon 2680 v2,26-05-2023,1.73,1245.6,38,25,3476,No,AWS
+GoogleCloudCompute,Asia Pacific (Singapore),AWS Region,t3.micro,Yes,Storage Optimized,46,Intel Xeon 2676 v3,07-03-2024,5.87,4226.4,13,39,1351,No,Google Cloud Platform
+AmazonS3,US West (Oregon),GCP Zone,m5d.24xlarge,No,General Purpose,53,Intel Xeon Platinum 8275,30-03-2024,6.79,4888.8,67,99,2696,No,AWS
+AzureVM,EU (Frankfurt),GCP Zone,r5d.24xlarge,Yes,General Purpose,95,Intel Xeon 2676 v3,23-12-2023,0.11,79.2,51,42,1597,No,Azure
+GoogleCloudCompute,Asia Pacific (Singapore),AWS Region,d2.xlarge,No,Memory Optimized,29,Intel Xeon 2680 v2,23-08-2023,1.33,957.6,24,11,4006,No,Google Cloud Platform
+AzureVM,Asia Pacific (Singapore),Azure Region,r5d.24xlarge,No,Storage Optimized,38,Intel Xeon 2680 v2,05-07-2023,4.43,3189.6,68,20,4725,No,Azure
+AmazonS3,US East (N. Virginia),GCP Zone,d2.xlarge,No,General Purpose,66,Intel Xeon Platinum 8280,18-01-2024,6.32,4550.4,34,66,3206,No,AWS
+AmazonS3,Asia Pacific (Singapore),GCP Zone,m5d.24xlarge,No,Storage Optimized,51,Intel Xeon Platinum 8275,08-03-2024,5.72,4118.4,54,31,2824,No,AWS
+AmazonEC2,US West (Oregon),Azure Region,c3.2xlarge,Yes,Memory Optimized,122,Intel Xeon Platinum 8275,30-03-2024,4.42,3182.4,12,92,4923,No,AWS
+GoogleCloudCompute,Asia Pacific (Singapore),GCP Zone,m5d.24xlarge,Yes,General Purpose,77,Intel Xeon 2680 v2,27-05-2023,8.84,6364.8,17,93,4320,No,Google Cloud Platform
+AmazonEC2,Asia Pacific (Singapore),AWS Region,d2.xlarge,Yes,Storage Optimized,9,Intel Xeon Platinum 8280,30-11-2023,9.6,6912,80,24,888,Yes,AWS
+AmazonEC2,EU (Frankfurt),AWS Region,d2.xlarge,No,Compute Optimized,10,Intel Xeon Platinum 8275,27-07-2023,8.42,6062.4,65,98,355,No,AWS
+AmazonEC2,US West (Oregon),GCP Zone,t3.micro,No,Compute Optimized,23,Intel Xeon Platinum 8275,14-05-2023,6.85,4932,52,34,3311,No,AWS
+AzureVM,US West (Oregon),GCP Zone,r5d.24xlarge,No,Memory Optimized,57,Intel Xeon Platinum 8280,28-06-2023,3.32,2390.4,41,18,4613,No,Azure
+AmazonS3,EU (Frankfurt),AWS Region,c3.2xlarge,No,Memory Optimized,26,Intel Xeon Platinum 8280,06-01-2023,7.29,5248.8,57,54,3390,No,AWS
+AmazonS3,EU (Frankfurt),GCP Zone,c3.2xlarge,No,General Purpose,119,Intel Xeon 2680 v2,05-01-2024,3.33,2397.6,85,86,3232,No,AWS
+GoogleCloudCompute,Asia Pacific (Singapore),Azure Region,d2.xlarge,No,General Purpose,14,Intel Xeon 2676 v3,14-02-2023,2.25,1620,74,60,2984,No,Google Cloud Platform
+AmazonS3,EU (Frankfurt),Azure Region,c3.2xlarge,No,Memory Optimized,92,Intel Xeon Platinum 8280,19-03-2024,5.79,4168.8,28,37,2988,Yes,AWS
+AzureVM,US East (N. Virginia),AWS Region,c3.2xlarge,Yes,General Purpose,127,Intel Xeon Platinum 8275,17-06-2023,5.49,3952.8,86,96,1069,No,Azure
+AmazonS3,US West (Oregon),Azure Region,m5d.24xlarge,Yes,General Purpose,72,Intel Xeon Platinum 8280,14-03-2024,9.49,6832.8,94,35,1817,No,AWS
+AmazonEC2,US East (N. Virginia),GCP Zone,r5d.24xlarge,No,Memory Optimized,43,Intel Xeon Platinum 8275,11-02-2024,5.89,4240.8,86,27,3584,No,AWS
+AmazonEC2,Asia Pacific (Singapore),Azure Region,r5d.24xlarge,Yes,Storage Optimized,82,Intel Xeon Platinum 8280,06-01-2024,8.28,5961.6,60,51,1123,Yes,AWS
+GoogleCloudCompute,EU (Frankfurt),Azure Region,t3.micro,Yes,Compute Optimized,57,Intel Xeon Platinum 8275,21-01-2023,7.35,5292,54,86,3298,No,Google Cloud Platform
+AmazonEC2,EU (Frankfurt),AWS Region,m5d.24xlarge,Yes,Storage Optimized,41,Intel Xeon 2676 v3,25-01-2023,3.2,2304,50,15,3452,No,AWS
+AzureVM,EU (Frankfurt),AWS Region,r5d.24xlarge,No,General Purpose,40,Intel Xeon Platinum 8275,08-01-2024,4.72,3398.4,33,28,4291,No,Azure
+AmazonS3,US East (N. Virginia),AWS Region,r5d.24xlarge,No,Compute Optimized,100,Intel Xeon 2680 v2,04-03-2024,4.95,3564,98,25,1811,No,AWS
+GoogleCloudCompute,Asia Pacific (Singapore),AWS Region,r5d.24xlarge,Yes,Compute Optimized,42,Intel Xeon Platinum 8275,25-04-2024,2.7,1944,64,27,394,No,Google Cloud Platform
+AzureVM,US East (N. Virginia),GCP Zone,t3.micro,No,Memory Optimized,39,Intel Xeon Platinum 8275,04-05-2024,7.73,5565.6,27,69,2697,No,Azure
+AmazonEC2,Asia Pacific (Singapore),Azure Region,m5d.24xlarge,Yes,Storage Optimized,9,Intel Xeon 2680 v2,17-05-2023,2.94,2116.8,90,25,192,No,AWS
+AmazonS3,US East (N. Virginia),Azure Region,d2.xlarge,No,Memory Optimized,18,Intel Xeon Platinum 8275,15-09-2023,8.16,5875.2,13,51,3310,No,AWS
+AmazonS3,Asia Pacific (Singapore),Azure Region,t3.micro,No,Compute Optimized,11,Intel Xeon Platinum 8275,29-04-2024,1.39,1000.8,22,45,4521,No,AWS
+AmazonEC2,EU (Frankfurt),AWS Region,m5d.24xlarge,Yes,General Purpose,118,Intel Xeon Platinum 8280,01-03-2023,2.1,1512,49,73,1224,No,AWS
+AzureVM,Asia Pacific (Singapore),AWS Region,t3.micro,Yes,General Purpose,20,Intel Xeon Platinum 8280,02-07-2023,1.32,950.4,11,34,3134,No,Azure
+AmazonS3,EU (Frankfurt),Azure Region,r5d.24xlarge,No,Memory Optimized,82,Intel Xeon Platinum 8275,09-01-2024,3.14,2260.8,78,92,1900,Yes,AWS
+AzureVM,Asia Pacific (Singapore),GCP Zone,t3.micro,No,Memory Optimized,89,Intel Xeon Platinum 8280,14-03-2024,7.65,5508,23,58,2967,No,Azure
+AzureVM,Asia Pacific (Singapore),AWS Region,t3.micro,No,Memory Optimized,118,Intel Xeon Platinum 8280,28-06-2023,2.49,1792.8,89,92,1627,No,Azure
+AmazonEC2,US East (N. Virginia),Azure Region,r5d.24xlarge,No,General Purpose,36,Intel Xeon 2680 v2,06-01-2023,6.91,4975.2,96,15,3247,No,AWS

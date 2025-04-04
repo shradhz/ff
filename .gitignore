@@ -1,0 +1,23 @@
+# Ignore Python cache files  
+__pycache__/  
+*.pyc  
+*.pyo  
+models/
+# Ignore virtual environment  
+venv/  
+
+# Ignore model and large dataset files (optional)  
+
+*.h5  
+
+# Ignore environment files  
+.env  
+*.log  
+debug.log  
+
+# Ignore IDE and system files  
+.vscode/  
+*.swp  
+.DS_Store  
+Thumbs.db  
+output.tar.gz 

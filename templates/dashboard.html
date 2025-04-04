@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        .container { text-align: center; padding: 20px; }
+        .cost-box { background: #f4f4f4; padding: 10px; border-radius: 5px; margin: 10px auto; width: 50%; }
+        .forecast-list { list-style: none; padding: 0; }
+        .forecast-list li { background: #d9edf7; margin: 5px 0; padding: 8px; border-radius: 3px; }
+        .anomaly-box { background: #ffdddd; color: red; padding: 10px; border-radius: 5px; margin: 10px auto; width: 50%; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cloud Cost Dashboard</h1>
+        <div class="cost-box">
+            <p><strong>Latest Cost:</strong> ${{ latest_cost }}</p>
+            <p><strong>Average Cost:</strong> ${{ avg_cost }}</p>
+        </div>
+
+        <h2>Cost Forecast</h2>
+        <button onclick="predictCost()">Predict Next 30 Days</button>
+        <ul id="forecast_result" class="forecast-list"></ul>
+
+        <h2>Anomaly Detection</h2>
+        <button onclick="detectAnomaly()">Check for Anomalies</button>
+        <p id="anomaly_result" class="anomaly-box"></p>
+    </div>
+
+    <script>
+        function predictCost() {
+            fetch("/predict_cost", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ days: 30 })
+            })
+            .then(response => response.json())
+            .then(data => {
+                let resultList = document.getElementById("forecast_result");
+                resultList.innerHTML = ""; // Clear previous data
+                
+                data["Future Costs"].forEach((cost, index) => {
+                    let listItem = document.createElement("li");
+                    listItem.textContent = `Day ${index + 1}: $${cost.toFixed(2)}`;
+                    resultList.appendChild(listItem);
+                });
+            })
+            .catch(error => console.error("Error:", error));
+        }
+
+        function detectAnomaly() {
+            fetch("/detect_anomalies", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ "Total Monthly Cost": {{ latest_cost }} })
+            })
+            .then(response => response.json())
+            .then(data => {
+                let anomalyBox = document.getElementById("anomaly_result");
+                anomalyBox.textContent = `Anomaly Detected: ${data["Anomaly"]}`;
+                anomalyBox.style.backgroundColor = data["Anomaly"] === "Yes" ? "#ffdddd" : "#ddffdd";
+                anomalyBox.style.color = data["Anomaly"] === "Yes" ? "red" : "green";
+            })
+            .catch(error => console.error("Error:", error));
+        }
+    </script>
+</body>
+</html>
